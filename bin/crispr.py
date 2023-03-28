@@ -1,3 +1,52 @@
+# the start
+#/scratch/users/anniz44/scripts/1MG/crispr
+# run cirsprcasefinder runCRISPRCasFinder.py
+cmds = 'python runCRISPRCasFinder.py'
+# merge and summarize crispr spacers + DR merge_spacer_filter.py
+cmds = 'python merge_spacer_filter.py'
+# filter crisprcasfinder
+# parsimony crispr
+cmds = 'python spacer_parsimony.py'
+cmds = 'python spacer_parsimony_sum.py '
+cmds = 'python spacer_parsimony.py -pgain 1.30102999566 -pnochange 0.04575749056'
+# annotate spacer
+cmds = 'python annotate_spacer.py'
+# structure of target spacers
+cmds = 'python spacer_structure.py'
+# phage seq from MG # not used
+cmds = 'python MGphage.py'
+# extract DR and SP of specific strains
+cmds = 'python DR_extract.py'
+# sum DR
+cmds = 'python sumDR.py'
+# map MG DR to WGS DR
+cmds = 'python DR_MGmapping.py'
+# remove contamination by DR
+cmds = 'python DR_contamination.py'
+# repeat parsimony crispr
+cmds = 'python spacer_parsimony.py -pgain 1.30102999566 -pnochange 0.04575749056'
+
+################################################### END ########################################################
+################################################### SET PATH ########################################################
+# step1 find crispr
+# step2 add_clonal_time.py
+# step3 snp_diff.py, crispr_diff.py
+# step4 merge_crispr_snp.py
+################################################### END ########################################################
+################################################### SET PATH ########################################################
+# remapping crispr using fastq-> remap.py
+#please run /scratch/users/anniz44/scripts/1MG/crispr/allremap.sh
+################################################### END ########################################################
+################################################### SET PATH ########################################################
+# sum remapping from grep -> remap_sum.py
+# mismatch + complement
+################################################### END ########################################################
+################################################### SET PATH ########################################################
+# crispr diff among genomes -> crispr_diff.py
+################################################### END ########################################################
+################################################### SET PATH ########################################################
+# merge crispr and SNP diff among genomes -> merge_crispr_snp.py
+# the end
 ################################################### SET PATH ########################################################
 # collect all WGS
 import os,glob
@@ -150,7 +199,7 @@ print('please run %s/%s' % (output_script, '../allspades.sh'))
 # run crass on WGS
 # rerun crass
 import os,glob
-output_folder = '/scratch/users/anniz44/genomes/GHM/newgenomes/crispr_MG/details/'
+output_folder = '/scratch/users/anniz44/genomes/crispr_MG/details/'
 output_script = '/scratch/users/anniz44/scripts/1MG/virus/crass_MG/'
 WGS_dir ='/scratch/users/anniz44/genomes/donor_species/selected_species/round1/'
 
@@ -204,7 +253,7 @@ print('please run %s/%s' % (output_script, '../allcrass.sh'))
 ################################################### SET PATH ########################################################
 # run crisprfinder on assembly
 import os,glob
-output_folder = '/scratch/users/anniz44/genomes/GHM/newgenomes/crispr_MG/details/'
+output_folder = '/scratch/users/anniz44/genomes/crispr_MG/details/'
 output_script = '/scratch/users/anniz44/scripts/1MG/virus/crass_assembly/'
 WGS_dir ='/scratch/users/anniz44/genomes/donor_species/selected_species/round1/'
 merge_dir = '/scratch/users/anniz44/genomes/donor_species/selected_species/fastawithcrispr/'
@@ -267,7 +316,7 @@ os.system('#sh DR.sh')
 os.system('#rsync -a *.fasta details/')
 
 import os,glob
-input_folder = '/scratch/users/anniz44/genomes/GHM/newgenomes/crispr_MG/details'
+input_folder = '/scratch/users/anniz44/genomes/crispr_MG/details'
 try:
     os.mkdir('%s/nocrispr2'%(input_folder))
 except IOError:
@@ -286,94 +335,75 @@ for files in glob.glob('%s/*'%(input_folder)):
             os.system('mv %s %s/nocrispr2/'%(files,input_folder))
             print(files)
 
-
 ################################################### END ########################################################
 ################################################### SET PATH ########################################################
-# merge crispr spacers
+# snp among genomes -> snp_diff.py
 import os,glob
 from Bio import SeqIO
 from Bio.Seq import Seq
-input_folder = '/scratch/users/anniz44/genomes/GHM/newgenomes/crispr_MG/details/'
-output_folder = '/scratch/users/anniz44/genomes/GHM/newgenomes/crispr_MG/summary/'
-filename_format = '_1.fastq'
-seq_limit1 = 27
-seq_limit2 = 43
 
-try:
-    os.mkdir(output_folder)
-except IOError:
-    pass
+input_snp_fasta = glob.glob('/scratch/users/anniz44/genomes/donor_species/vcf_round2/merge/details/*.all.parsi.fasta')
+output_folder = '/scratch/users/anniz44/genomes/crispr_MG/summary/'
 
-def qualify_len(seq):
-    if len(seq)>=seq_limit1 and len(seq)<=seq_limit2:
-        return True
-
-def changespacername(newname,oldgroup,oldID):
-    group = int(newname.split('G')[1].split('SP')[0])
-    if oldgroup!= 0 and oldID != 0:
-        if group == oldgroup:
-            # same group
-            newID = oldID + 1
-        else:
-            # diff group
-            newID = 1
-    else:
-        # first spacer
-        newID = 1
-    newname = 'G%sSP%s__%s' % (group, newID, newname)
-    return [newname,group,newID]
-
-def add_name(fastafile,outputlist,Spacers = False):
-    filefolder, filename = os.path.split(fastafile)
-    filefolder, filename = os.path.split(filefolder)
-    filename = filename.replace(filename_format,'')
-    oldgroup, oldID = [0,0]
-    for record in SeqIO.parse(fastafile, 'fasta'):
-        record_id = str(record.id)
-        if Spacers:
-            record_id, oldgroup, oldID = changespacername(record_id,oldgroup, oldID)
-        record_seq = str(record.seq)
-        if not Spacers or qualify_len(record_seq):
-            outputlist.append('>%s__%s\n%s\n'%(filename,record_id,record_seq))
-    return outputlist
+alloutput = '%s/all.SNP.pair.sum'%(output_folder)
+f1 = open(alloutput,'w')
+f1.write('cluster\tgenome1\tgenome2\tSNPs\n')
+f1.close()
 
 def output_fasta(outputlist,outputfilename):
-    f1 = open(outputfilename,'w')
+    f1 = open(outputfilename,'a')
     f1.write(''.join(outputlist))
     f1.close()
 
-allspacerfiles = glob.glob('%s/*/spacers.fasta'%(input_folder))
-allDRfiles = glob.glob('%s/*/DR.fasta'%(input_folder))
-# spacer merge
-alloutput = []
-outputfilename = '%s/all.spacers.fasta'%(output_folder)
-for files in allspacerfiles:
-    alloutput = add_name(files, alloutput, True)
+def SNP_seq(seq1, seq2):
+    SNP_total = 0
+    total_length = len(seq1)
+    for i in range(0, total_length):
+        if seq1[i] != seq2[i]:
+            # a SNP
+            SNP_total += 1
+    return SNP_total
 
-output_fasta(alloutput,outputfilename)
-# cluster spacer seq
-for cutoff in [0.95,0.9,0.85,0.8]:
-    cmd_cluster = ('%s -sort length -cluster_fast %s -id %s -centroids %s.cluster.%s.fasta -uc %s.cluster.%s.uc -threads %s\n'
-                       % ('usearch', outputfilename, cutoff, outputfilename,cutoff,
-                          outputfilename,cutoff, 40))
-    os.system(cmd_cluster)
-
-# DR merge
-alloutput = []
-outputfilename = '%s/all.DR.fasta'%(output_folder)
-for files in allDRfiles:
-    alloutput = add_name(files, alloutput, False)
-
-output_fasta(alloutput,outputfilename)
+for fastafile in input_snp_fasta:
+    species = os.path.split(fastafile)[-1].split('_')[0]
+    donor = os.path.split(fastafile)[-1].split('.donor.')[1].split('.all.parsi.fasta')[0]
+    CP = os.path.split(fastafile)[-1].split('.donor')[0]
+    print('procession %s %s'%(species,donor))
+    allseq = dict()
+    allgenome = []
+    for lines in open(fastafile):
+        if not lines.startswith(' ') and not lines.startswith('Srefer'):
+            record_id = lines.split('    ')[0]
+            record_seq = lines.split('    ')[1].split('\n')[0]
+            genome = record_id.split('_')[-1]
+            allseq.setdefault(genome,record_seq)
+            allgenome.append(genome)
+    allresults = []
+    for i in range(0,len(allgenome)-1):
+        genome1 = allgenome[i]
+        seq1 = allseq[genome1]
+        if donor.startswith('H') or donor.startswith('D') or donor.startswith('P'):
+            newgenome1 = '%s_%s_%s' % (donor, species, genome1)
+        else:
+            newgenome1 = '%s_%s_g%s'%(donor,species,genome1)
+        for j in range(i,len(allgenome)):
+            genome2 = allgenome[j]
+            seq2 = allseq[genome2]
+            if donor.startswith('H') or donor.startswith('D') or donor.startswith('P'):
+                newgenome2 = '%s_%s_%s' % (donor,species, genome2)
+            else:
+                newgenome2 = '%s_%s_g%s' % (donor, species, genome2)
+            allresults.append('%s\t%s\t%s\t%s\n'%(CP,newgenome1,newgenome2,SNP_seq(seq1, seq2)))
+    output_fasta(allresults, alloutput)
 
 ################################################### END ########################################################
 ################################################### SET PATH ########################################################
 # map spacers to phage genomes
 import os,glob
 
-input_folder = '/scratch/users/anniz44/genomes/GHM/newgenomes/crispr_MG/summary/'
+input_folder = '/scratch/users/anniz44/genomes/crispr_MG/summary/'
 database = '/scratch/users/anniz44/scripts/database/virus/phage.ENA.fasta'
-output_folder = '/scratch/users/anniz44/genomes/GHM/newgenomes/crispr_MG/summary/'
+output_folder = '/scratch/users/anniz44/genomes/crispr_MG/summary/'
 input_script = '/scratch/users/anniz44/scripts/1MG/virus/anno_virusMG/'
 
 try:
@@ -439,7 +469,7 @@ for spacerfile in allspacerfiles:
 # map spacers to bacterial genomes -> after runspades
 import os,glob
 
-input_folder = '/scratch/users/anniz44/genomes/GHM/newgenomes/crispr_MG/details/'
+input_folder = '/scratch/users/anniz44/genomes/crispr_MG/details/'
 input_script = '/scratch/users/anniz44/scripts/1MG/virus/anno_virusam/'
 WGS_dir ='/scratch/users/anniz44/genomes/donor_species/selected_species/round1/'
 
@@ -497,8 +527,8 @@ import os,glob
 from Bio import SeqIO
 from Bio.Seq import Seq
 
-input_folder = '/scratch/users/anniz44/genomes/GHM/newgenomes/crispr_MG/details//'
-output_folder = '/scratch/users/anniz44/genomes/GHM/newgenomes/crispr_MG/summary//'
+input_folder = '/scratch/users/anniz44/genomes/crispr_MG/details//'
+output_folder = '/scratch/users/anniz44/genomes/crispr_MG/summary//'
 filename_format = '_1.fastq'
 distance_spacer = 5000
 seq_limit1 = 27
@@ -588,8 +618,8 @@ import os,glob
 from Bio import SeqIO
 from Bio.Seq import Seq
 
-input_folder = '/scratch/users/anniz44/genomes/GHM/newgenomes/crispr_MG/details//'
-output_folder = '/scratch/users/anniz44/genomes/GHM/newgenomes/crispr_MG/summary//'
+input_folder = '/scratch/users/anniz44/genomes/crispr_MG/details//'
+output_folder = '/scratch/users/anniz44/genomes/crispr_MG/summary//'
 WGS_dir ='/scratch/users/anniz44/genomes/donor_species/selected_species/round1/'
 
 filename_format = '_1.fastq'
@@ -671,53 +701,7 @@ f1.close()
 os.system('grep -v \"CRISPR\" %s.anno.txt > %s.anno.nocrispr.txt'%(outputfilename,outputfilename))
 ################################################### END ########################################################
 ################################################### SET PATH ########################################################
-# phage seq from MG
-import os,glob
-from Bio import SeqIO
-from Bio.Seq import Seq
-
-input_fastq = '/scratch/users/anniz44/Metagenomes/BN10_MG/fastq/'
-output_folder = '/scratch/users/anniz44/genomes/GHM/newgenomes/crispr_MG/MG_phage/'
-input_script = '/scratch/users/anniz44/scripts/1MG/virus/MG_phage/'
-
-fq_format = '_1.fq'
-fq_format2 = '_2.fq'
-
-try:
-    os.mkdir(input_script)
-except IOError:
-    pass
-
-try:
-    os.mkdir(output_folder)
-except IOError:
-    pass
-
-allfastq = glob.glob('%s/*%s'%(input_fastq,fq_format))
-for fastq_1 in allfastq:
-    fastq_2 = fastq_1.replace(fq_format,fq_format2)
-    filename = os.path.split(fastq_1)[-1]
-    output_file = '%s/%s/'%(output_folder,filename)
-    cmd = 'export HDF5_USE_FILE_LOCKING=\'FALSE\'\n'
-    # megahit
-    cmd += 'megahit -1 %s -2 %s -o %s --min-contig-len 1000 -t 40 -m 0.99\n'%(fastq_1,fastq_2,output_file)
-    # phage seq from MG
-    cmd += 'predict-metagenome %s/final.contigs.fa\n'%(output_file)
-    f1 = open(os.path.join(input_script, '%s.sh'%(filename)), 'w')
-    f1.write('#!/bin/bash\nsource ~/.bashrc\npy37\n%s'%(cmd))
-    f1.close()
-
-# all scripts
-f1 = open(os.path.join(input_script, '../allMG_phage.sh'), 'w')
-f1.write('#!/bin/bash\nsource ~/.bashrc\n')
-for sub_scripts in glob.glob(os.path.join(input_script, '*.sh')):
-    try:
-        f2 = open('%s.err'%(sub_scripts),'r')
-    except IOError:
-        f1.write('jobmit %s %s\n' % (sub_scripts, os.path.split(sub_scripts)[-1]))
-
-f1.close()
-print('please run %s/%s' % (input_script, '../allMG_phage.sh'))
+# phage seq from MG -> MGphage.py
 ################################################### END ########################################################
 ################################################### SET PATH ########################################################
 # phage map spacers to phage in MG
@@ -725,9 +709,9 @@ import os,glob
 from Bio import SeqIO
 from Bio.Seq import Seq
 
-MG_phage = '/scratch/users/anniz44/genomes/GHM/newgenomes/crispr_MG/MG_phage/*/final.contigs.fa'
-output_folder = '/scratch/users/anniz44/genomes/GHM/newgenomes/crispr_MG/summary//'
-spacersfile = '/scratch/users/anniz44/genomes/GHM/newgenomes/crispr_MG/summary/all.spacers.fasta.cluster.0.95.fasta'
+MG_phage = '/scratch/users/anniz44/genomes/crispr_MG/MG_phage/*/final.contigs.fa'
+output_folder = '/scratch/users/anniz44/genomes/crispr_MG/summary//'
+spacersfile = '/scratch/users/anniz44/genomes/crispr_MG/summary/all.spacers.fasta.cluster.0.95.fasta'
 input_script = '/scratch/users/anniz44/scripts/1MG/virus/map_MGphage/'
 phage_score = 0.5
 try:
@@ -781,8 +765,8 @@ from Bio import SeqIO
 from Bio.Seq import Seq
 
 plasmid_db = '/scratch/users/anniz44/genomes/NCBI_Genome/newplasmid/*.fna'
-output_folder = '/scratch/users/anniz44/genomes/GHM/newgenomes/crispr_MG/summary/details/'
-spacersfile = '/scratch/users/anniz44/genomes/GHM/newgenomes/crispr_MG/summary/anno_details/all.spacers.fasta.cluster.0.95.fasta'
+output_folder = '/scratch/users/anniz44/genomes/crispr_MG/summary/details/'
+spacersfile = '/scratch/users/anniz44/genomes/crispr_MG/summary/anno_details/all.spacers.fasta.cluster.0.95.fasta'
 input_script = '/scratch/users/anniz44/scripts/1MG/virus/map_plasmid/'
 
 try:
@@ -816,7 +800,7 @@ import os,glob
 from Bio import SeqIO
 from Bio.Seq import Seq
 
-output_folder = '/scratch/users/anniz44/genomes/GHM/newgenomes/crispr_MG/prophage/'
+output_folder = '/scratch/users/anniz44/genomes/crispr_MG/prophage/'
 WGS_dir ='/scratch/users/anniz44/genomes/donor_species/selected_species/round1/'
 filename_format = '_final.scaffolds.fasta'
 input_script = '/scratch/users/anniz44/scripts/1MG/virus/prophage/'
@@ -862,7 +846,7 @@ import os,glob
 from Bio import SeqIO
 from Bio.Seq import Seq
 
-output_folder = '/scratch/users/anniz44/genomes/GHM/newgenomes/crispr_MG/prophage/'
+output_folder = '/scratch/users/anniz44/genomes/crispr_MG/prophage/'
 WGS_dir ='/scratch/users/anniz44/genomes/donor_species/selected_species/round1/'
 filename_format = '_final.scaffolds.fasta'
 input_script = '/scratch/users/anniz44/scripts/1MG/virus/prophage_rerun/'
@@ -932,11 +916,11 @@ import os,glob
 from Bio import SeqIO
 from Bio.Seq import Seq
 
-output_folder = '/scratch/users/anniz44/genomes/GHM/newgenomes/crispr_MG/prophage/'
+output_folder = '/scratch/users/anniz44/genomes/crispr_MG/prophage/'
 WGS_dir ='/scratch/users/anniz44/genomes/donor_species/selected_species/round1/'
 filename_format = '_final.scaffolds.fasta'
 input_script = '/scratch/users/anniz44/scripts/1MG/virus/map_prophage/'
-input_folder = '/scratch/users/anniz44/genomes/GHM/newgenomes/crispr_MG/details//'
+input_folder = '/scratch/users/anniz44/genomes/crispr_MG/details//'
 
 try:
     os.mkdir(input_script)
@@ -993,8 +977,8 @@ import os,glob
 from Bio import SeqIO
 from Bio.Seq import Seq
 
-input_folder = '/scratch/users/anniz44/genomes/GHM/newgenomes/crispr_MG/details//'
-output_folder = '/scratch/users/anniz44/genomes/GHM/newgenomes/crispr_MG/summary//'
+input_folder = '/scratch/users/anniz44/genomes/crispr_MG/details//'
+output_folder = '/scratch/users/anniz44/genomes/crispr_MG/summary//'
 filename_format = '_1.fastq'
 distance_spacer = 5000
 seq_limit1 = 27
@@ -1069,8 +1053,8 @@ output_fasta(alloutput,outputfilename)
 import os,glob
 import copy
 
-input_folder = '/scratch/users/anniz44/genomes/GHM/newgenomes/crispr_MG/details/'
-output_folder = '/scratch/users/anniz44/genomes/GHM/newgenomes/crispr_MG/summary/details/'
+input_folder = '/scratch/users/anniz44/genomes/crispr_MG/details/'
+output_folder = '/scratch/users/anniz44/genomes/crispr_MG/summary/details/'
 database_map = '/scratch/users/anniz44/scripts/database/virus/phage.ENA.details.txt'
 id_cutoff = 90
 kmer_cutoff = 16
@@ -1215,7 +1199,7 @@ import os,glob
 from Bio import SeqIO
 from Bio.Seq import Seq
 
-output_folder = '/scratch/users/anniz44/genomes/GHM/newgenomes/crispr_MG/summary//'
+output_folder = '/scratch/users/anniz44/genomes/crispr_MG/summary//'
 id_cutoff = 90
 hit_length = 90
 kmer_cutoff = 16
@@ -1304,7 +1288,7 @@ import os,glob
 from Bio import SeqIO
 from Bio.Seq import Seq
 
-output_folder = '/scratch/users/anniz44/genomes/GHM/newgenomes/crispr_MG/summary//'
+output_folder = '/scratch/users/anniz44/genomes/crispr_MG/summary//'
 # map annotate results
 def loaduc(uc_file):
     ucseq = dict()
@@ -1493,7 +1477,7 @@ import os,glob
 from Bio import SeqIO
 from Bio.Seq import Seq
 
-output_folder = '/scratch/users/anniz44/genomes/GHM/newgenomes/crispr_MG/summary//'
+output_folder = '/scratch/users/anniz44/genomes/crispr_MG/summary//'
 id_cutoff = 90
 kmer_cutoff = 16
 cluster_cutff = 0.9
@@ -1549,15 +1533,15 @@ find_same_donor(allanno_file)
 
 ################################################### END ########################################################
 ################################################### SET PATH ########################################################
-# add time tag and clonal pop tag on genomes
+# add time tag and clonal pop tag on genomes -> add_clonal_time.py
 import os,glob
 from Bio import SeqIO
 from Bio.Seq import Seq
 
-output_folder = '/scratch/users/anniz44/genomes/GHM/newgenomes/crispr_MG/summary/allspacers_withtimetag/'
+output_folder = '/scratch/users/anniz44/genomes/crispr_MG/summary/anno/allspacers_withtimetag/'
 time_meta = '/scratch/users/anniz44/scripts/1MG/virus/table_BN10_WGS_metadata_07052018.txt'
 genome_name_meta = '/scratch/users/anniz44/genomes/donor_species/selected_species/file.change.name.new.txt'
-clonal_pop_files = '/scratch/users/anniz44/genomes/pan-genome/roary/clonal_population/*.genome.cluster.txt'
+clonal_pop_files = '/scratch/users/anniz44/genomes/donor_species/vcf_round1/clonal_population/*.genome.cluster.txt'
 
 # load time
 time_tag = dict()
@@ -1667,7 +1651,7 @@ import os,glob
 from Bio import SeqIO
 from Bio.Seq import Seq
 
-output_folder = '/scratch/users/anniz44/genomes/GHM/newgenomes/crispr_MG/summary//'
+output_folder = '/scratch/users/anniz44/genomes/crispr_MG/anno/'
 genome_name_meta = '/scratch/users/anniz44/genomes/donor_species/selected_species/file.change.name.new.txt.addtime.addclonal.txt'
 # find all unique spacers
 samespacer = dict()
@@ -1739,7 +1723,7 @@ import os,glob
 from Bio import SeqIO
 from Bio.Seq import Seq
 
-output_folder = '/scratch/users/anniz44/genomes/GHM/newgenomes/crispr_MG/summary//'
+output_folder = '/scratch/users/anniz44/genomes/crispr_MG/summary//'
 genome_name_meta = '/scratch/users/anniz44/genomes/donor_species/selected_species/file.change.name.new.txt.addtime.addclonal.txt'
 
 os.system('rm %s/*target.txt %s/*selfblast*'%(output_folder,output_folder))
@@ -1906,7 +1890,7 @@ Tag = {'diffspecies':1,
        'samespecies.diffcluster':2,
        'samespecies.samecluster.diffCP':3,
        'samespecies.samecluster.sameCP.samegenome':4}
-output_folder = '/scratch/users/anniz44/genomes/GHM/newgenomes/crispr_MG/summary//'
+output_folder = '/scratch/users/anniz44/genomes/crispr_MG/summary//'
 # summarize all unique spacers in species
 def anno_newspacer(newspacer):
     newspacer =newspacer.split(':')[1]
@@ -1982,10 +1966,10 @@ f1.close()
 ################################################### END ########################################################
 ################################################### SET PATH ########################################################
 # notused
-'wget --post-file="/scratch/users/anniz44/genomes/GHM/newgenomes/GMC_Genome_Library_01312020/0262AD_0917_052_A3_final.scaffolds.fasta" "http://phaster.ca/phaster_api?contigs=1" -O /scratch/users/anniz44/genomes/GHM/newgenomes/crispr_MG/prophage/0262AD_0917_052_A3_final.scaffolds.fasta.prophage.contig1.txt'
-'wget --post-file="/scratch/users/anniz44/genomes/GHM/newgenomes/GMC_Genome_Library_01312020/0262AD_0917_052_A3_final.scaffolds.fasta" "http://phaster.ca/phaster_api" -O /scratch/users/anniz44/genomes/GHM/newgenomes/crispr_MG/prophage/0262AD_0917_052_A3_final.scaffolds.fasta.prophage.txt'
-'wget "http://phaster.ca/phaster_api?acc=ZZ_2ab1b1f8b4" -O /scratch/users/anniz44/genomes/GHM/newgenomes/crispr_MG/prophage/0262AD_0917_052_A3_final.scaffolds.fasta.prophage.contig1.txt'
-'wget "http://phaster.ca/phaster_api?acc=ZZ_d72aace991" -O /scratch/users/anniz44/genomes/GHM/newgenomes/crispr_MG/prophage/0262AD_0917_052_A3_final.scaffolds.fasta.prophage.txt'
+'wget --post-file="/scratch/users/anniz44/genomes/GHM/newgenomes/GMC_Genome_Library_01312020/0262AD_0917_052_A3_final.scaffolds.fasta" "http://phaster.ca/phaster_api?contigs=1" -O /scratch/users/anniz44/genomes/crispr_MG/prophage/0262AD_0917_052_A3_final.scaffolds.fasta.prophage.contig1.txt'
+'wget --post-file="/scratch/users/anniz44/genomes/GHM/newgenomes/GMC_Genome_Library_01312020/0262AD_0917_052_A3_final.scaffolds.fasta" "http://phaster.ca/phaster_api" -O /scratch/users/anniz44/genomes/crispr_MG/prophage/0262AD_0917_052_A3_final.scaffolds.fasta.prophage.txt'
+'wget "http://phaster.ca/phaster_api?acc=ZZ_2ab1b1f8b4" -O /scratch/users/anniz44/genomes/crispr_MG/prophage/0262AD_0917_052_A3_final.scaffolds.fasta.prophage.contig1.txt'
+'wget "http://phaster.ca/phaster_api?acc=ZZ_d72aace991" -O /scratch/users/anniz44/genomes/crispr_MG/prophage/0262AD_0917_052_A3_final.scaffolds.fasta.prophage.txt'
 # blastx on MAC
 'top | grep 91731'
 

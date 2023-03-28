@@ -1,0 +1,4618 @@
+subscripts/aa.sh: line 3: activate: No such file or directory
+***************************************************
+    ..:: dRep dereplicate Step 1. Filter ::..
+***************************************************
+    
+Will filter the genome list
+Calculating genome info of genomes
+100.00% of genomes passed length filtering
+Running prodigal
+Past prodigal runs found- will not re-run
+Running checkM
+38.78% of genomes passed checkM filtering
+***************************************************
+    ..:: dRep dereplicate Step 2. Cluster ::..
+***************************************************
+    
+Running primary clustering
+Running pair-wise MASH clustering
+14 primary clusters made
+Running secondary clustering
+Running 29 ANImf comparisons- should take ~ 2.4 min
+Step 4. Return output
+***************************************************
+    ..:: dRep dereplicate Step 3. Choose ::..
+***************************************************
+    
+Loading work directory
+***************************************************
+    ..:: dRep dereplicate Step 4. Evaluate ::..
+***************************************************
+    
+will provide warnings about clusters
+0 warnings generated: saved to /media/user/T7/AnniZ/assembly/derep/aa/log/warnings.txt
+will produce Widb (winner information db)
+Winner database saved to /media/user/T7/AnniZ/assembly/derep/aadata_tables/Widb.csv
+***************************************************
+    ..:: dRep dereplicate Step 5. Analyze ::..
+***************************************************
+    
+making plots 1, 2, 3, 4, 5, 6
+Plotting primary dendrogram
+Plotting secondary dendrograms
+Plotting MDS plot
+Plotting scatterplots
+Plotting bin scorring plot
+Plotting winning genomes plot...
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+    ..:: dRep dereplicate finished ::..
+
+Dereplicated genomes................. /media/user/T7/AnniZ/assembly/derep/aa/dereplicated_genomes/
+Dereplicated genomes information..... /media/user/T7/AnniZ/assembly/derep/aa/data_tables/Widb.csv
+Figures.............................. /media/user/T7/AnniZ/assembly/derep/aa/figures/
+Warnings............................. /media/user/T7/AnniZ/assembly/derep/aa/log/warnings.txt
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+    
+subscripts/ab.sh: line 3: activate: No such file or directory
+***************************************************
+    ..:: dRep dereplicate Step 1. Filter ::..
+***************************************************
+    
+Will filter the genome list
+Calculating genome info of genomes
+100.00% of genomes passed length filtering
+Running prodigal
+Running checkM
+36.17% of genomes passed checkM filtering
+***************************************************
+    ..:: dRep dereplicate Step 2. Cluster ::..
+***************************************************
+    
+Running primary clustering
+Running pair-wise MASH clustering
+12 primary clusters made
+Running secondary clustering
+Running 27 ANImf comparisons- should take ~ 2.2 min
+Step 4. Return output
+***************************************************
+    ..:: dRep dereplicate Step 3. Choose ::..
+***************************************************
+    
+Loading work directory
+***************************************************
+    ..:: dRep dereplicate Step 4. Evaluate ::..
+***************************************************
+    
+will provide warnings about clusters
+0 warnings generated: saved to /media/user/T7/AnniZ/assembly/derep/ab/log/warnings.txt
+will produce Widb (winner information db)
+Winner database saved to /media/user/T7/AnniZ/assembly/derep/abdata_tables/Widb.csv
+***************************************************
+    ..:: dRep dereplicate Step 5. Analyze ::..
+***************************************************
+    
+making plots 1, 2, 3, 4, 5, 6
+Plotting primary dendrogram
+Plotting secondary dendrograms
+Plotting MDS plot
+Plotting scatterplots
+Plotting bin scorring plot
+Plotting winning genomes plot...
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+    ..:: dRep dereplicate finished ::..
+
+Dereplicated genomes................. /media/user/T7/AnniZ/assembly/derep/ab/dereplicated_genomes/
+Dereplicated genomes information..... /media/user/T7/AnniZ/assembly/derep/ab/data_tables/Widb.csv
+Figures.............................. /media/user/T7/AnniZ/assembly/derep/ab/figures/
+Warnings............................. /media/user/T7/AnniZ/assembly/derep/ab/log/warnings.txt
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+    
+subscripts/ac.sh: line 3: activate: No such file or directory
+***************************************************
+    ..:: dRep dereplicate Step 1. Filter ::..
+***************************************************
+    
+Will filter the genome list
+Calculating genome info of genomes
+100.00% of genomes passed length filtering
+Running prodigal
+Running checkM
+23.08% of genomes passed checkM filtering
+***************************************************
+    ..:: dRep dereplicate Step 2. Cluster ::..
+***************************************************
+    
+Running primary clustering
+Running pair-wise MASH clustering
+9 primary clusters made
+Running secondary clustering
+Running 18 ANImf comparisons- should take ~ 1.5 min
+Step 4. Return output
+***************************************************
+    ..:: dRep dereplicate Step 3. Choose ::..
+***************************************************
+    
+Loading work directory
+***************************************************
+    ..:: dRep dereplicate Step 4. Evaluate ::..
+***************************************************
+    
+will provide warnings about clusters
+0 warnings generated: saved to /media/user/T7/AnniZ/assembly/derep/ac/log/warnings.txt
+will produce Widb (winner information db)
+Winner database saved to /media/user/T7/AnniZ/assembly/derep/acdata_tables/Widb.csv
+***************************************************
+    ..:: dRep dereplicate Step 5. Analyze ::..
+***************************************************
+    
+making plots 1, 2, 3, 4, 5, 6
+Plotting primary dendrogram
+Plotting secondary dendrograms
+Plotting MDS plot
+Plotting scatterplots
+Plotting bin scorring plot
+Plotting winning genomes plot...
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+    ..:: dRep dereplicate finished ::..
+
+Dereplicated genomes................. /media/user/T7/AnniZ/assembly/derep/ac/dereplicated_genomes/
+Dereplicated genomes information..... /media/user/T7/AnniZ/assembly/derep/ac/data_tables/Widb.csv
+Figures.............................. /media/user/T7/AnniZ/assembly/derep/ac/figures/
+Warnings............................. /media/user/T7/AnniZ/assembly/derep/ac/log/warnings.txt
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+    
+subscripts/ad.sh: line 3: activate: No such file or directory
+***************************************************
+    ..:: dRep dereplicate Step 1. Filter ::..
+***************************************************
+    
+Will filter the genome list
+Calculating genome info of genomes
+100.00% of genomes passed length filtering
+Running prodigal
+Running checkM
+24.24% of genomes passed checkM filtering
+***************************************************
+    ..:: dRep dereplicate Step 2. Cluster ::..
+***************************************************
+    
+Running primary clustering
+Running pair-wise MASH clustering
+12 primary clusters made
+Running secondary clustering
+Running 24 ANImf comparisons- should take ~ 2.0 min
+Step 4. Return output
+***************************************************
+    ..:: dRep dereplicate Step 3. Choose ::..
+***************************************************
+    
+Loading work directory
+***************************************************
+    ..:: dRep dereplicate Step 4. Evaluate ::..
+***************************************************
+    
+will provide warnings about clusters
+0 warnings generated: saved to /media/user/T7/AnniZ/assembly/derep/ad/log/warnings.txt
+will produce Widb (winner information db)
+Winner database saved to /media/user/T7/AnniZ/assembly/derep/addata_tables/Widb.csv
+***************************************************
+    ..:: dRep dereplicate Step 5. Analyze ::..
+***************************************************
+    
+making plots 1, 2, 3, 4, 5, 6
+Plotting primary dendrogram
+Plotting secondary dendrograms
+Plotting MDS plot
+Plotting scatterplots
+Plotting bin scorring plot
+Plotting winning genomes plot...
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+    ..:: dRep dereplicate finished ::..
+
+Dereplicated genomes................. /media/user/T7/AnniZ/assembly/derep/ad/dereplicated_genomes/
+Dereplicated genomes information..... /media/user/T7/AnniZ/assembly/derep/ad/data_tables/Widb.csv
+Figures.............................. /media/user/T7/AnniZ/assembly/derep/ad/figures/
+Warnings............................. /media/user/T7/AnniZ/assembly/derep/ad/log/warnings.txt
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+    
+subscripts/ae.sh: line 3: activate: No such file or directory
+***************************************************
+    ..:: dRep dereplicate Step 1. Filter ::..
+***************************************************
+    
+Will filter the genome list
+Calculating genome info of genomes
+100.00% of genomes passed length filtering
+Running prodigal
+Running checkM
+24.66% of genomes passed checkM filtering
+***************************************************
+    ..:: dRep dereplicate Step 2. Cluster ::..
+***************************************************
+    
+Running primary clustering
+Running pair-wise MASH clustering
+17 primary clusters made
+Running secondary clustering
+Running 2519 ANImf comparisons- should take ~ 209.9 min
+Step 4. Return output
+***************************************************
+    ..:: dRep dereplicate Step 3. Choose ::..
+***************************************************
+    
+Loading work directory
+***************************************************
+    ..:: dRep dereplicate Step 4. Evaluate ::..
+***************************************************
+    
+will provide warnings about clusters
+4 warnings generated: saved to /media/user/T7/AnniZ/assembly/derep/ae/log/warnings.txt
+will produce Widb (winner information db)
+Winner database saved to /media/user/T7/AnniZ/assembly/derep/aedata_tables/Widb.csv
+***************************************************
+    ..:: dRep dereplicate Step 5. Analyze ::..
+***************************************************
+    
+making plots 1, 2, 3, 4, 5, 6
+Plotting primary dendrogram
+Plotting secondary dendrograms
+Plotting MDS plot
+Plotting scatterplots
+Plotting bin scorring plot
+Plotting winning genomes plot...
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+    ..:: dRep dereplicate finished ::..
+
+Dereplicated genomes................. /media/user/T7/AnniZ/assembly/derep/ae/dereplicated_genomes/
+Dereplicated genomes information..... /media/user/T7/AnniZ/assembly/derep/ae/data_tables/Widb.csv
+Figures.............................. /media/user/T7/AnniZ/assembly/derep/ae/figures/
+Warnings............................. /media/user/T7/AnniZ/assembly/derep/ae/log/warnings.txt
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+    
+subscripts/af.sh: line 3: activate: No such file or directory
+***************************************************
+    ..:: dRep dereplicate Step 1. Filter ::..
+***************************************************
+    
+Will filter the genome list
+Calculating genome info of genomes
+100.00% of genomes passed length filtering
+Running prodigal
+Running checkM
+34.15% of genomes passed checkM filtering
+***************************************************
+    ..:: dRep dereplicate Step 2. Cluster ::..
+***************************************************
+    
+Running primary clustering
+Running pair-wise MASH clustering
+9 primary clusters made
+Running secondary clustering
+Running 24 ANImf comparisons- should take ~ 2.0 min
+Step 4. Return output
+***************************************************
+    ..:: dRep dereplicate Step 3. Choose ::..
+***************************************************
+    
+Loading work directory
+***************************************************
+    ..:: dRep dereplicate Step 4. Evaluate ::..
+***************************************************
+    
+will provide warnings about clusters
+1 warnings generated: saved to /media/user/T7/AnniZ/assembly/derep/af/log/warnings.txt
+will produce Widb (winner information db)
+Winner database saved to /media/user/T7/AnniZ/assembly/derep/afdata_tables/Widb.csv
+***************************************************
+    ..:: dRep dereplicate Step 5. Analyze ::..
+***************************************************
+    
+making plots 1, 2, 3, 4, 5, 6
+Plotting primary dendrogram
+Plotting secondary dendrograms
+Plotting MDS plot
+Plotting scatterplots
+Plotting bin scorring plot
+Plotting winning genomes plot...
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+    ..:: dRep dereplicate finished ::..
+
+Dereplicated genomes................. /media/user/T7/AnniZ/assembly/derep/af/dereplicated_genomes/
+Dereplicated genomes information..... /media/user/T7/AnniZ/assembly/derep/af/data_tables/Widb.csv
+Figures.............................. /media/user/T7/AnniZ/assembly/derep/af/figures/
+Warnings............................. /media/user/T7/AnniZ/assembly/derep/af/log/warnings.txt
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+    
+subscripts/ag.sh: line 3: activate: No such file or directory
+***************************************************
+    ..:: dRep dereplicate Step 1. Filter ::..
+***************************************************
+    
+Will filter the genome list
+Calculating genome info of genomes
+100.00% of genomes passed length filtering
+Running prodigal
+Running checkM
+41.94% of genomes passed checkM filtering
+***************************************************
+    ..:: dRep dereplicate Step 2. Cluster ::..
+***************************************************
+    
+Running primary clustering
+Running pair-wise MASH clustering
+8 primary clusters made
+Running secondary clustering
+Running 23 ANImf comparisons- should take ~ 1.9 min
+Step 4. Return output
+***************************************************
+    ..:: dRep dereplicate Step 3. Choose ::..
+***************************************************
+    
+Loading work directory
+***************************************************
+    ..:: dRep dereplicate Step 4. Evaluate ::..
+***************************************************
+    
+will provide warnings about clusters
+0 warnings generated: saved to /media/user/T7/AnniZ/assembly/derep/ag/log/warnings.txt
+will produce Widb (winner information db)
+Winner database saved to /media/user/T7/AnniZ/assembly/derep/agdata_tables/Widb.csv
+***************************************************
+    ..:: dRep dereplicate Step 5. Analyze ::..
+***************************************************
+    
+making plots 1, 2, 3, 4, 5, 6
+Plotting primary dendrogram
+Plotting secondary dendrograms
+Plotting MDS plot
+Plotting scatterplots
+Plotting bin scorring plot
+Plotting winning genomes plot...
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+    ..:: dRep dereplicate finished ::..
+
+Dereplicated genomes................. /media/user/T7/AnniZ/assembly/derep/ag/dereplicated_genomes/
+Dereplicated genomes information..... /media/user/T7/AnniZ/assembly/derep/ag/data_tables/Widb.csv
+Figures.............................. /media/user/T7/AnniZ/assembly/derep/ag/figures/
+Warnings............................. /media/user/T7/AnniZ/assembly/derep/ag/log/warnings.txt
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+    
+subscripts/ah.sh: line 3: activate: No such file or directory
+***************************************************
+    ..:: dRep dereplicate Step 1. Filter ::..
+***************************************************
+    
+Will filter the genome list
+Calculating genome info of genomes
+100.00% of genomes passed length filtering
+Running prodigal
+Running checkM
+33.33% of genomes passed checkM filtering
+***************************************************
+    ..:: dRep dereplicate Step 2. Cluster ::..
+***************************************************
+    
+Running primary clustering
+Running pair-wise MASH clustering
+15 primary clusters made
+Running secondary clustering
+Running 33 ANImf comparisons- should take ~ 2.8 min
+Step 4. Return output
+***************************************************
+    ..:: dRep dereplicate Step 3. Choose ::..
+***************************************************
+    
+Loading work directory
+***************************************************
+    ..:: dRep dereplicate Step 4. Evaluate ::..
+***************************************************
+    
+will provide warnings about clusters
+0 warnings generated: saved to /media/user/T7/AnniZ/assembly/derep/ah/log/warnings.txt
+will produce Widb (winner information db)
+Winner database saved to /media/user/T7/AnniZ/assembly/derep/ahdata_tables/Widb.csv
+***************************************************
+    ..:: dRep dereplicate Step 5. Analyze ::..
+***************************************************
+    
+making plots 1, 2, 3, 4, 5, 6
+Plotting primary dendrogram
+Plotting secondary dendrograms
+Plotting MDS plot
+Plotting scatterplots
+Plotting bin scorring plot
+Plotting winning genomes plot...
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+    ..:: dRep dereplicate finished ::..
+
+Dereplicated genomes................. /media/user/T7/AnniZ/assembly/derep/ah/dereplicated_genomes/
+Dereplicated genomes information..... /media/user/T7/AnniZ/assembly/derep/ah/data_tables/Widb.csv
+Figures.............................. /media/user/T7/AnniZ/assembly/derep/ah/figures/
+Warnings............................. /media/user/T7/AnniZ/assembly/derep/ah/log/warnings.txt
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+    
+subscripts/ai.sh: line 3: activate: No such file or directory
+***************************************************
+    ..:: dRep dereplicate Step 1. Filter ::..
+***************************************************
+    
+Will filter the genome list
+Calculating genome info of genomes
+100.00% of genomes passed length filtering
+Running prodigal
+Running checkM
+35.48% of genomes passed checkM filtering
+***************************************************
+    ..:: dRep dereplicate Step 2. Cluster ::..
+***************************************************
+    
+Running primary clustering
+Running pair-wise MASH clustering
+7 primary clusters made
+Running secondary clustering
+Running 19 ANImf comparisons- should take ~ 1.6 min
+Step 4. Return output
+***************************************************
+    ..:: dRep dereplicate Step 3. Choose ::..
+***************************************************
+    
+Loading work directory
+***************************************************
+    ..:: dRep dereplicate Step 4. Evaluate ::..
+***************************************************
+    
+will provide warnings about clusters
+0 warnings generated: saved to /media/user/T7/AnniZ/assembly/derep/ai/log/warnings.txt
+will produce Widb (winner information db)
+Winner database saved to /media/user/T7/AnniZ/assembly/derep/aidata_tables/Widb.csv
+***************************************************
+    ..:: dRep dereplicate Step 5. Analyze ::..
+***************************************************
+    
+making plots 1, 2, 3, 4, 5, 6
+Plotting primary dendrogram
+Plotting secondary dendrograms
+Plotting MDS plot
+Plotting scatterplots
+Plotting bin scorring plot
+Plotting winning genomes plot...
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+    ..:: dRep dereplicate finished ::..
+
+Dereplicated genomes................. /media/user/T7/AnniZ/assembly/derep/ai/dereplicated_genomes/
+Dereplicated genomes information..... /media/user/T7/AnniZ/assembly/derep/ai/data_tables/Widb.csv
+Figures.............................. /media/user/T7/AnniZ/assembly/derep/ai/figures/
+Warnings............................. /media/user/T7/AnniZ/assembly/derep/ai/log/warnings.txt
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+    
+subscripts/aj.sh: line 3: activate: No such file or directory
+***************************************************
+    ..:: dRep dereplicate Step 1. Filter ::..
+***************************************************
+    
+Will filter the genome list
+Calculating genome info of genomes
+100.00% of genomes passed length filtering
+Running prodigal
+Running checkM
+33.33% of genomes passed checkM filtering
+***************************************************
+    ..:: dRep dereplicate Step 2. Cluster ::..
+***************************************************
+    
+Running primary clustering
+Running pair-wise MASH clustering
+12 primary clusters made
+Running secondary clustering
+Running 18 ANImf comparisons- should take ~ 1.5 min
+Step 4. Return output
+***************************************************
+    ..:: dRep dereplicate Step 3. Choose ::..
+***************************************************
+    
+Loading work directory
+***************************************************
+    ..:: dRep dereplicate Step 4. Evaluate ::..
+***************************************************
+    
+will provide warnings about clusters
+0 warnings generated: saved to /media/user/T7/AnniZ/assembly/derep/aj/log/warnings.txt
+will produce Widb (winner information db)
+Winner database saved to /media/user/T7/AnniZ/assembly/derep/ajdata_tables/Widb.csv
+***************************************************
+    ..:: dRep dereplicate Step 5. Analyze ::..
+***************************************************
+    
+making plots 1, 2, 3, 4, 5, 6
+Plotting primary dendrogram
+Plotting secondary dendrograms
+Plotting MDS plot
+Plotting scatterplots
+Plotting bin scorring plot
+Plotting winning genomes plot...
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+    ..:: dRep dereplicate finished ::..
+
+Dereplicated genomes................. /media/user/T7/AnniZ/assembly/derep/aj/dereplicated_genomes/
+Dereplicated genomes information..... /media/user/T7/AnniZ/assembly/derep/aj/data_tables/Widb.csv
+Figures.............................. /media/user/T7/AnniZ/assembly/derep/aj/figures/
+Warnings............................. /media/user/T7/AnniZ/assembly/derep/aj/log/warnings.txt
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+    
+subscripts/ak.sh: line 3: activate: No such file or directory
+***************************************************
+    ..:: dRep dereplicate Step 1. Filter ::..
+***************************************************
+    
+Will filter the genome list
+Calculating genome info of genomes
+100.00% of genomes passed length filtering
+Running prodigal
+Running checkM
+22.50% of genomes passed checkM filtering
+***************************************************
+    ..:: dRep dereplicate Step 2. Cluster ::..
+***************************************************
+    
+Running primary clustering
+Running pair-wise MASH clustering
+9 primary clusters made
+Running secondary clustering
+Running 9 ANImf comparisons- should take ~ 0.8 min
+Step 4. Return output
+***************************************************
+    ..:: dRep dereplicate Step 3. Choose ::..
+***************************************************
+    
+Loading work directory
+***************************************************
+    ..:: dRep dereplicate Step 4. Evaluate ::..
+***************************************************
+    
+will provide warnings about clusters
+0 warnings generated: saved to /media/user/T7/AnniZ/assembly/derep/ak/log/warnings.txt
+will produce Widb (winner information db)
+Winner database saved to /media/user/T7/AnniZ/assembly/derep/akdata_tables/Widb.csv
+***************************************************
+    ..:: dRep dereplicate Step 5. Analyze ::..
+***************************************************
+    
+making plots 1, 2, 3, 4, 5, 6
+Plotting primary dendrogram
+Plotting secondary dendrograms
+Plotting MDS plot
+Plotting scatterplots
+Plotting bin scorring plot
+Plotting winning genomes plot...
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+    ..:: dRep dereplicate finished ::..
+
+Dereplicated genomes................. /media/user/T7/AnniZ/assembly/derep/ak/dereplicated_genomes/
+Dereplicated genomes information..... /media/user/T7/AnniZ/assembly/derep/ak/data_tables/Widb.csv
+Figures.............................. /media/user/T7/AnniZ/assembly/derep/ak/figures/
+Warnings............................. /media/user/T7/AnniZ/assembly/derep/ak/log/warnings.txt
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+    
+subscripts/al.sh: line 3: activate: No such file or directory
+***************************************************
+    ..:: dRep dereplicate Step 1. Filter ::..
+***************************************************
+    
+Will filter the genome list
+Calculating genome info of genomes
+100.00% of genomes passed length filtering
+Running prodigal
+Running checkM
+35.00% of genomes passed checkM filtering
+***************************************************
+    ..:: dRep dereplicate Step 2. Cluster ::..
+***************************************************
+    
+Running primary clustering
+Running pair-wise MASH clustering
+12 primary clusters made
+Running secondary clustering
+Running 18 ANImf comparisons- should take ~ 1.5 min
+Step 4. Return output
+***************************************************
+    ..:: dRep dereplicate Step 3. Choose ::..
+***************************************************
+    
+Loading work directory
+***************************************************
+    ..:: dRep dereplicate Step 4. Evaluate ::..
+***************************************************
+    
+will provide warnings about clusters
+0 warnings generated: saved to /media/user/T7/AnniZ/assembly/derep/al/log/warnings.txt
+will produce Widb (winner information db)
+Winner database saved to /media/user/T7/AnniZ/assembly/derep/aldata_tables/Widb.csv
+***************************************************
+    ..:: dRep dereplicate Step 5. Analyze ::..
+***************************************************
+    
+making plots 1, 2, 3, 4, 5, 6
+Plotting primary dendrogram
+Plotting secondary dendrograms
+Plotting MDS plot
+Plotting scatterplots
+Plotting bin scorring plot
+Plotting winning genomes plot...
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+    ..:: dRep dereplicate finished ::..
+
+Dereplicated genomes................. /media/user/T7/AnniZ/assembly/derep/al/dereplicated_genomes/
+Dereplicated genomes information..... /media/user/T7/AnniZ/assembly/derep/al/data_tables/Widb.csv
+Figures.............................. /media/user/T7/AnniZ/assembly/derep/al/figures/
+Warnings............................. /media/user/T7/AnniZ/assembly/derep/al/log/warnings.txt
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+    
+subscripts/am.sh: line 3: activate: No such file or directory
+***************************************************
+    ..:: dRep dereplicate Step 1. Filter ::..
+***************************************************
+    
+Will filter the genome list
+Calculating genome info of genomes
+100.00% of genomes passed length filtering
+Running prodigal
+Running checkM
+23.86% of genomes passed checkM filtering
+***************************************************
+    ..:: dRep dereplicate Step 2. Cluster ::..
+***************************************************
+    
+Running primary clustering
+Running pair-wise MASH clustering
+23 primary clusters made
+Running secondary clustering
+Running 16695 ANImf comparisons- should take ~ 1391.2 min
+Step 4. Return output
+***************************************************
+    ..:: dRep dereplicate Step 3. Choose ::..
+***************************************************
+    
+Loading work directory
+***************************************************
+    ..:: dRep dereplicate Step 4. Evaluate ::..
+***************************************************
+    
+will provide warnings about clusters
+11 warnings generated: saved to /media/user/T7/AnniZ/assembly/derep/am/log/warnings.txt
+will produce Widb (winner information db)
+Winner database saved to /media/user/T7/AnniZ/assembly/derep/amdata_tables/Widb.csv
+***************************************************
+    ..:: dRep dereplicate Step 5. Analyze ::..
+***************************************************
+    
+making plots 1, 2, 3, 4, 5, 6
+Plotting primary dendrogram
+Plotting secondary dendrograms
+Plotting MDS plot
+Plotting scatterplots
+Plotting bin scorring plot
+Plotting winning genomes plot...
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+    ..:: dRep dereplicate finished ::..
+
+Dereplicated genomes................. /media/user/T7/AnniZ/assembly/derep/am/dereplicated_genomes/
+Dereplicated genomes information..... /media/user/T7/AnniZ/assembly/derep/am/data_tables/Widb.csv
+Figures.............................. /media/user/T7/AnniZ/assembly/derep/am/figures/
+Warnings............................. /media/user/T7/AnniZ/assembly/derep/am/log/warnings.txt
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+    
+subscripts/an.sh: line 3: activate: No such file or directory
+***************************************************
+    ..:: dRep dereplicate Step 1. Filter ::..
+***************************************************
+    
+Will filter the genome list
+Calculating genome info of genomes
+100.00% of genomes passed length filtering
+Running prodigal
+Running checkM
+29.91% of genomes passed checkM filtering
+***************************************************
+    ..:: dRep dereplicate Step 2. Cluster ::..
+***************************************************
+    
+Running primary clustering
+Running pair-wise MASH clustering
+32 primary clusters made
+Running secondary clustering
+Running 5613 ANImf comparisons- should take ~ 467.8 min
+Step 4. Return output
+***************************************************
+    ..:: dRep dereplicate Step 3. Choose ::..
+***************************************************
+    
+Loading work directory
+***************************************************
+    ..:: dRep dereplicate Step 4. Evaluate ::..
+***************************************************
+    
+will provide warnings about clusters
+14 warnings generated: saved to /media/user/T7/AnniZ/assembly/derep/an/log/warnings.txt
+will produce Widb (winner information db)
+Winner database saved to /media/user/T7/AnniZ/assembly/derep/andata_tables/Widb.csv
+***************************************************
+    ..:: dRep dereplicate Step 5. Analyze ::..
+***************************************************
+    
+making plots 1, 2, 3, 4, 5, 6
+Plotting primary dendrogram
+Plotting secondary dendrograms
+Plotting MDS plot
+Plotting scatterplots
+Plotting bin scorring plot
+Plotting winning genomes plot...
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+    ..:: dRep dereplicate finished ::..
+
+Dereplicated genomes................. /media/user/T7/AnniZ/assembly/derep/an/dereplicated_genomes/
+Dereplicated genomes information..... /media/user/T7/AnniZ/assembly/derep/an/data_tables/Widb.csv
+Figures.............................. /media/user/T7/AnniZ/assembly/derep/an/figures/
+Warnings............................. /media/user/T7/AnniZ/assembly/derep/an/log/warnings.txt
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+    
+subscripts/ao.sh: line 3: activate: No such file or directory
+***************************************************
+    ..:: dRep dereplicate Step 1. Filter ::..
+***************************************************
+    
+Will filter the genome list
+Calculating genome info of genomes
+100.00% of genomes passed length filtering
+Running prodigal
+Running checkM
+34.23% of genomes passed checkM filtering
+***************************************************
+    ..:: dRep dereplicate Step 2. Cluster ::..
+***************************************************
+    
+Running primary clustering
+Running pair-wise MASH clustering
+21 primary clusters made
+Running secondary clustering
+Running 13794 ANImf comparisons- should take ~ 1149.5 min
+Step 4. Return output
+***************************************************
+    ..:: dRep dereplicate Step 3. Choose ::..
+***************************************************
+    
+Loading work directory
+***************************************************
+    ..:: dRep dereplicate Step 4. Evaluate ::..
+***************************************************
+    
+will provide warnings about clusters
+9 warnings generated: saved to /media/user/T7/AnniZ/assembly/derep/ao/log/warnings.txt
+will produce Widb (winner information db)
+Winner database saved to /media/user/T7/AnniZ/assembly/derep/aodata_tables/Widb.csv
+***************************************************
+    ..:: dRep dereplicate Step 5. Analyze ::..
+***************************************************
+    
+making plots 1, 2, 3, 4, 5, 6
+Plotting primary dendrogram
+Plotting secondary dendrograms
+Plotting MDS plot
+Plotting scatterplots
+Plotting bin scorring plot
+Plotting winning genomes plot...
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+    ..:: dRep dereplicate finished ::..
+
+Dereplicated genomes................. /media/user/T7/AnniZ/assembly/derep/ao/dereplicated_genomes/
+Dereplicated genomes information..... /media/user/T7/AnniZ/assembly/derep/ao/data_tables/Widb.csv
+Figures.............................. /media/user/T7/AnniZ/assembly/derep/ao/figures/
+Warnings............................. /media/user/T7/AnniZ/assembly/derep/ao/log/warnings.txt
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+    
+subscripts/ap.sh: line 3: activate: No such file or directory
+***************************************************
+    ..:: dRep dereplicate Step 1. Filter ::..
+***************************************************
+    
+Will filter the genome list
+Calculating genome info of genomes
+100.00% of genomes passed length filtering
+Running prodigal
+Running checkM
+19.23% of genomes passed checkM filtering
+***************************************************
+    ..:: dRep dereplicate Step 2. Cluster ::..
+***************************************************
+    
+Running primary clustering
+Running pair-wise MASH clustering
+4 primary clusters made
+Running secondary clustering
+Running 7 ANImf comparisons- should take ~ 0.6 min
+Step 4. Return output
+***************************************************
+    ..:: dRep dereplicate Step 3. Choose ::..
+***************************************************
+    
+Loading work directory
+***************************************************
+    ..:: dRep dereplicate Step 4. Evaluate ::..
+***************************************************
+    
+will provide warnings about clusters
+0 warnings generated: saved to /media/user/T7/AnniZ/assembly/derep/ap/log/warnings.txt
+will produce Widb (winner information db)
+Winner database saved to /media/user/T7/AnniZ/assembly/derep/apdata_tables/Widb.csv
+***************************************************
+    ..:: dRep dereplicate Step 5. Analyze ::..
+***************************************************
+    
+making plots 1, 2, 3, 4, 5, 6
+Plotting primary dendrogram
+Plotting secondary dendrograms
+Plotting MDS plot
+Plotting scatterplots
+Plotting bin scorring plot
+Plotting winning genomes plot...
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+    ..:: dRep dereplicate finished ::..
+
+Dereplicated genomes................. /media/user/T7/AnniZ/assembly/derep/ap/dereplicated_genomes/
+Dereplicated genomes information..... /media/user/T7/AnniZ/assembly/derep/ap/data_tables/Widb.csv
+Figures.............................. /media/user/T7/AnniZ/assembly/derep/ap/figures/
+Warnings............................. /media/user/T7/AnniZ/assembly/derep/ap/log/warnings.txt
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+    
+subscripts/aq.sh: line 3: activate: No such file or directory
+***************************************************
+    ..:: dRep dereplicate Step 1. Filter ::..
+***************************************************
+    
+Will filter the genome list
+Calculating genome info of genomes
+100.00% of genomes passed length filtering
+Running prodigal
+Running checkM
+26.83% of genomes passed checkM filtering
+***************************************************
+    ..:: dRep dereplicate Step 2. Cluster ::..
+***************************************************
+    
+Running primary clustering
+Running pair-wise MASH clustering
+7 primary clusters made
+Running secondary clustering
+Running 19 ANImf comparisons- should take ~ 1.6 min
+Step 4. Return output
+***************************************************
+    ..:: dRep dereplicate Step 3. Choose ::..
+***************************************************
+    
+Loading work directory
+***************************************************
+    ..:: dRep dereplicate Step 4. Evaluate ::..
+***************************************************
+    
+will provide warnings about clusters
+0 warnings generated: saved to /media/user/T7/AnniZ/assembly/derep/aq/log/warnings.txt
+will produce Widb (winner information db)
+Winner database saved to /media/user/T7/AnniZ/assembly/derep/aqdata_tables/Widb.csv
+***************************************************
+    ..:: dRep dereplicate Step 5. Analyze ::..
+***************************************************
+    
+making plots 1, 2, 3, 4, 5, 6
+Plotting primary dendrogram
+Plotting secondary dendrograms
+Plotting MDS plot
+Plotting scatterplots
+Plotting bin scorring plot
+Plotting winning genomes plot...
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+    ..:: dRep dereplicate finished ::..
+
+Dereplicated genomes................. /media/user/T7/AnniZ/assembly/derep/aq/dereplicated_genomes/
+Dereplicated genomes information..... /media/user/T7/AnniZ/assembly/derep/aq/data_tables/Widb.csv
+Figures.............................. /media/user/T7/AnniZ/assembly/derep/aq/figures/
+Warnings............................. /media/user/T7/AnniZ/assembly/derep/aq/log/warnings.txt
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+    
+subscripts/ar.sh: line 3: activate: No such file or directory
+***************************************************
+    ..:: dRep dereplicate Step 1. Filter ::..
+***************************************************
+    
+Will filter the genome list
+Calculating genome info of genomes
+100.00% of genomes passed length filtering
+Running prodigal
+Running checkM
+43.55% of genomes passed checkM filtering
+***************************************************
+    ..:: dRep dereplicate Step 2. Cluster ::..
+***************************************************
+    
+Running primary clustering
+Running pair-wise MASH clustering
+17 primary clusters made
+Running secondary clustering
+Running 47 ANImf comparisons- should take ~ 3.9 min
+Step 4. Return output
+***************************************************
+    ..:: dRep dereplicate Step 3. Choose ::..
+***************************************************
+    
+Loading work directory
+***************************************************
+    ..:: dRep dereplicate Step 4. Evaluate ::..
+***************************************************
+    
+will provide warnings about clusters
+0 warnings generated: saved to /media/user/T7/AnniZ/assembly/derep/ar/log/warnings.txt
+will produce Widb (winner information db)
+Winner database saved to /media/user/T7/AnniZ/assembly/derep/ardata_tables/Widb.csv
+***************************************************
+    ..:: dRep dereplicate Step 5. Analyze ::..
+***************************************************
+    
+making plots 1, 2, 3, 4, 5, 6
+Plotting primary dendrogram
+Plotting secondary dendrograms
+Plotting MDS plot
+Plotting scatterplots
+Plotting bin scorring plot
+Plotting winning genomes plot...
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+    ..:: dRep dereplicate finished ::..
+
+Dereplicated genomes................. /media/user/T7/AnniZ/assembly/derep/ar/dereplicated_genomes/
+Dereplicated genomes information..... /media/user/T7/AnniZ/assembly/derep/ar/data_tables/Widb.csv
+Figures.............................. /media/user/T7/AnniZ/assembly/derep/ar/figures/
+Warnings............................. /media/user/T7/AnniZ/assembly/derep/ar/log/warnings.txt
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+    
+subscripts/as.sh: line 3: activate: No such file or directory
+***************************************************
+    ..:: dRep dereplicate Step 1. Filter ::..
+***************************************************
+    
+Will filter the genome list
+Calculating genome info of genomes
+100.00% of genomes passed length filtering
+Running prodigal
+Running checkM
+37.50% of genomes passed checkM filtering
+***************************************************
+    ..:: dRep dereplicate Step 2. Cluster ::..
+***************************************************
+    
+Running primary clustering
+Running pair-wise MASH clustering
+7 primary clusters made
+Running secondary clustering
+Running 13 ANImf comparisons- should take ~ 1.1 min
+Step 4. Return output
+***************************************************
+    ..:: dRep dereplicate Step 3. Choose ::..
+***************************************************
+    
+Loading work directory
+***************************************************
+    ..:: dRep dereplicate Step 4. Evaluate ::..
+***************************************************
+    
+will provide warnings about clusters
+0 warnings generated: saved to /media/user/T7/AnniZ/assembly/derep/as/log/warnings.txt
+will produce Widb (winner information db)
+Winner database saved to /media/user/T7/AnniZ/assembly/derep/asdata_tables/Widb.csv
+***************************************************
+    ..:: dRep dereplicate Step 5. Analyze ::..
+***************************************************
+    
+making plots 1, 2, 3, 4, 5, 6
+Plotting primary dendrogram
+Plotting secondary dendrograms
+Plotting MDS plot
+Plotting scatterplots
+Plotting bin scorring plot
+Plotting winning genomes plot...
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+    ..:: dRep dereplicate finished ::..
+
+Dereplicated genomes................. /media/user/T7/AnniZ/assembly/derep/as/dereplicated_genomes/
+Dereplicated genomes information..... /media/user/T7/AnniZ/assembly/derep/as/data_tables/Widb.csv
+Figures.............................. /media/user/T7/AnniZ/assembly/derep/as/figures/
+Warnings............................. /media/user/T7/AnniZ/assembly/derep/as/log/warnings.txt
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+    
+subscripts/at.sh: line 3: activate: No such file or directory
+***************************************************
+    ..:: dRep dereplicate Step 1. Filter ::..
+***************************************************
+    
+Will filter the genome list
+Calculating genome info of genomes
+100.00% of genomes passed length filtering
+Running prodigal
+Running checkM
+38.89% of genomes passed checkM filtering
+***************************************************
+    ..:: dRep dereplicate Step 2. Cluster ::..
+***************************************************
+    
+Running primary clustering
+Running pair-wise MASH clustering
+10 primary clusters made
+Running secondary clustering
+Running 22 ANImf comparisons- should take ~ 1.8 min
+Step 4. Return output
+***************************************************
+    ..:: dRep dereplicate Step 3. Choose ::..
+***************************************************
+    
+Loading work directory
+***************************************************
+    ..:: dRep dereplicate Step 4. Evaluate ::..
+***************************************************
+    
+will provide warnings about clusters
+0 warnings generated: saved to /media/user/T7/AnniZ/assembly/derep/at/log/warnings.txt
+will produce Widb (winner information db)
+Winner database saved to /media/user/T7/AnniZ/assembly/derep/atdata_tables/Widb.csv
+***************************************************
+    ..:: dRep dereplicate Step 5. Analyze ::..
+***************************************************
+    
+making plots 1, 2, 3, 4, 5, 6
+Plotting primary dendrogram
+Plotting secondary dendrograms
+Plotting MDS plot
+Plotting scatterplots
+Plotting bin scorring plot
+Plotting winning genomes plot...
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+    ..:: dRep dereplicate finished ::..
+
+Dereplicated genomes................. /media/user/T7/AnniZ/assembly/derep/at/dereplicated_genomes/
+Dereplicated genomes information..... /media/user/T7/AnniZ/assembly/derep/at/data_tables/Widb.csv
+Figures.............................. /media/user/T7/AnniZ/assembly/derep/at/figures/
+Warnings............................. /media/user/T7/AnniZ/assembly/derep/at/log/warnings.txt
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+    
+subscripts/au.sh: line 3: activate: No such file or directory
+***************************************************
+    ..:: dRep dereplicate Step 1. Filter ::..
+***************************************************
+    
+Will filter the genome list
+Calculating genome info of genomes
+100.00% of genomes passed length filtering
+Running prodigal
+Running checkM
+45.45% of genomes passed checkM filtering
+***************************************************
+    ..:: dRep dereplicate Step 2. Cluster ::..
+***************************************************
+    
+Running primary clustering
+Running pair-wise MASH clustering
+11 primary clusters made
+Running secondary clustering
+Running 23 ANImf comparisons- should take ~ 1.9 min
+Step 4. Return output
+***************************************************
+    ..:: dRep dereplicate Step 3. Choose ::..
+***************************************************
+    
+Loading work directory
+***************************************************
+    ..:: dRep dereplicate Step 4. Evaluate ::..
+***************************************************
+    
+will provide warnings about clusters
+0 warnings generated: saved to /media/user/T7/AnniZ/assembly/derep/au/log/warnings.txt
+will produce Widb (winner information db)
+Winner database saved to /media/user/T7/AnniZ/assembly/derep/audata_tables/Widb.csv
+***************************************************
+    ..:: dRep dereplicate Step 5. Analyze ::..
+***************************************************
+    
+making plots 1, 2, 3, 4, 5, 6
+Plotting primary dendrogram
+Plotting secondary dendrograms
+Plotting MDS plot
+Plotting scatterplots
+Plotting bin scorring plot
+Plotting winning genomes plot...
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+    ..:: dRep dereplicate finished ::..
+
+Dereplicated genomes................. /media/user/T7/AnniZ/assembly/derep/au/dereplicated_genomes/
+Dereplicated genomes information..... /media/user/T7/AnniZ/assembly/derep/au/data_tables/Widb.csv
+Figures.............................. /media/user/T7/AnniZ/assembly/derep/au/figures/
+Warnings............................. /media/user/T7/AnniZ/assembly/derep/au/log/warnings.txt
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+    
+subscripts/av.sh: line 3: activate: No such file or directory
+***************************************************
+    ..:: dRep dereplicate Step 1. Filter ::..
+***************************************************
+    
+Will filter the genome list
+Calculating genome info of genomes
+100.00% of genomes passed length filtering
+Running prodigal
+Running checkM
+34.15% of genomes passed checkM filtering
+***************************************************
+    ..:: dRep dereplicate Step 2. Cluster ::..
+***************************************************
+    
+Running primary clustering
+Running pair-wise MASH clustering
+11 primary clusters made
+Running secondary clustering
+Running 20 ANImf comparisons- should take ~ 1.7 min
+Step 4. Return output
+***************************************************
+    ..:: dRep dereplicate Step 3. Choose ::..
+***************************************************
+    
+Loading work directory
+***************************************************
+    ..:: dRep dereplicate Step 4. Evaluate ::..
+***************************************************
+    
+will provide warnings about clusters
+0 warnings generated: saved to /media/user/T7/AnniZ/assembly/derep/av/log/warnings.txt
+will produce Widb (winner information db)
+Winner database saved to /media/user/T7/AnniZ/assembly/derep/avdata_tables/Widb.csv
+***************************************************
+    ..:: dRep dereplicate Step 5. Analyze ::..
+***************************************************
+    
+making plots 1, 2, 3, 4, 5, 6
+Plotting primary dendrogram
+Plotting secondary dendrograms
+Plotting MDS plot
+Plotting scatterplots
+Plotting bin scorring plot
+Plotting winning genomes plot...
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+    ..:: dRep dereplicate finished ::..
+
+Dereplicated genomes................. /media/user/T7/AnniZ/assembly/derep/av/dereplicated_genomes/
+Dereplicated genomes information..... /media/user/T7/AnniZ/assembly/derep/av/data_tables/Widb.csv
+Figures.............................. /media/user/T7/AnniZ/assembly/derep/av/figures/
+Warnings............................. /media/user/T7/AnniZ/assembly/derep/av/log/warnings.txt
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+    
+subscripts/aw.sh: line 3: activate: No such file or directory
+***************************************************
+    ..:: dRep dereplicate Step 1. Filter ::..
+***************************************************
+    
+Will filter the genome list
+Calculating genome info of genomes
+100.00% of genomes passed length filtering
+Running prodigal
+Running checkM
+25.00% of genomes passed checkM filtering
+***************************************************
+    ..:: dRep dereplicate Step 2. Cluster ::..
+***************************************************
+    
+Running primary clustering
+Running pair-wise MASH clustering
+10 primary clusters made
+Running secondary clustering
+Running 10 ANImf comparisons- should take ~ 0.8 min
+Step 4. Return output
+***************************************************
+    ..:: dRep dereplicate Step 3. Choose ::..
+***************************************************
+    
+Loading work directory
+***************************************************
+    ..:: dRep dereplicate Step 4. Evaluate ::..
+***************************************************
+    
+will provide warnings about clusters
+0 warnings generated: saved to /media/user/T7/AnniZ/assembly/derep/aw/log/warnings.txt
+will produce Widb (winner information db)
+Winner database saved to /media/user/T7/AnniZ/assembly/derep/awdata_tables/Widb.csv
+***************************************************
+    ..:: dRep dereplicate Step 5. Analyze ::..
+***************************************************
+    
+making plots 1, 2, 3, 4, 5, 6
+Plotting primary dendrogram
+Plotting secondary dendrograms
+Plotting MDS plot
+Plotting scatterplots
+Plotting bin scorring plot
+Plotting winning genomes plot...
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+    ..:: dRep dereplicate finished ::..
+
+Dereplicated genomes................. /media/user/T7/AnniZ/assembly/derep/aw/dereplicated_genomes/
+Dereplicated genomes information..... /media/user/T7/AnniZ/assembly/derep/aw/data_tables/Widb.csv
+Figures.............................. /media/user/T7/AnniZ/assembly/derep/aw/figures/
+Warnings............................. /media/user/T7/AnniZ/assembly/derep/aw/log/warnings.txt
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+    
+subscripts/ax.sh: line 3: activate: No such file or directory
+***************************************************
+    ..:: dRep dereplicate Step 1. Filter ::..
+***************************************************
+    
+Will filter the genome list
+Calculating genome info of genomes
+100.00% of genomes passed length filtering
+Running prodigal
+Running checkM
+29.51% of genomes passed checkM filtering
+***************************************************
+    ..:: dRep dereplicate Step 2. Cluster ::..
+***************************************************
+    
+Running primary clustering
+Running pair-wise MASH clustering
+12 primary clusters made
+Running secondary clustering
+Running 30 ANImf comparisons- should take ~ 2.5 min
+Step 4. Return output
+***************************************************
+    ..:: dRep dereplicate Step 3. Choose ::..
+***************************************************
+    
+Loading work directory
+***************************************************
+    ..:: dRep dereplicate Step 4. Evaluate ::..
+***************************************************
+    
+will provide warnings about clusters
+0 warnings generated: saved to /media/user/T7/AnniZ/assembly/derep/ax/log/warnings.txt
+will produce Widb (winner information db)
+Winner database saved to /media/user/T7/AnniZ/assembly/derep/axdata_tables/Widb.csv
+***************************************************
+    ..:: dRep dereplicate Step 5. Analyze ::..
+***************************************************
+    
+making plots 1, 2, 3, 4, 5, 6
+Plotting primary dendrogram
+Plotting secondary dendrograms
+Plotting MDS plot
+Plotting scatterplots
+Plotting bin scorring plot
+Plotting winning genomes plot...
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+    ..:: dRep dereplicate finished ::..
+
+Dereplicated genomes................. /media/user/T7/AnniZ/assembly/derep/ax/dereplicated_genomes/
+Dereplicated genomes information..... /media/user/T7/AnniZ/assembly/derep/ax/data_tables/Widb.csv
+Figures.............................. /media/user/T7/AnniZ/assembly/derep/ax/figures/
+Warnings............................. /media/user/T7/AnniZ/assembly/derep/ax/log/warnings.txt
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+    
+subscripts/ay.sh: line 3: activate: No such file or directory
+***************************************************
+    ..:: dRep dereplicate Step 1. Filter ::..
+***************************************************
+    
+Will filter the genome list
+Calculating genome info of genomes
+100.00% of genomes passed length filtering
+Running prodigal
+Running checkM
+15.00% of genomes passed checkM filtering
+***************************************************
+    ..:: dRep dereplicate Step 2. Cluster ::..
+***************************************************
+    
+Running primary clustering
+Running pair-wise MASH clustering
+3 primary clusters made
+Running secondary clustering
+Running 3 ANImf comparisons- should take ~ 0.2 min
+Step 4. Return output
+***************************************************
+    ..:: dRep dereplicate Step 3. Choose ::..
+***************************************************
+    
+Loading work directory
+***************************************************
+    ..:: dRep dereplicate Step 4. Evaluate ::..
+***************************************************
+    
+will provide warnings about clusters
+0 warnings generated: saved to /media/user/T7/AnniZ/assembly/derep/ay/log/warnings.txt
+will produce Widb (winner information db)
+Winner database saved to /media/user/T7/AnniZ/assembly/derep/aydata_tables/Widb.csv
+***************************************************
+    ..:: dRep dereplicate Step 5. Analyze ::..
+***************************************************
+    
+making plots 1, 2, 3, 4, 5, 6
+Plotting primary dendrogram
+Plotting secondary dendrograms
+Plotting MDS plot
+Plotting scatterplots
+Plotting bin scorring plot
+Plotting winning genomes plot...
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+    ..:: dRep dereplicate finished ::..
+
+Dereplicated genomes................. /media/user/T7/AnniZ/assembly/derep/ay/dereplicated_genomes/
+Dereplicated genomes information..... /media/user/T7/AnniZ/assembly/derep/ay/data_tables/Widb.csv
+Figures.............................. /media/user/T7/AnniZ/assembly/derep/ay/figures/
+Warnings............................. /media/user/T7/AnniZ/assembly/derep/ay/log/warnings.txt
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+    
+subscripts/az.sh: line 3: activate: No such file or directory
+***************************************************
+    ..:: dRep dereplicate Step 1. Filter ::..
+***************************************************
+    
+Will filter the genome list
+Calculating genome info of genomes
+100.00% of genomes passed length filtering
+Running prodigal
+Running checkM
+32.73% of genomes passed checkM filtering
+***************************************************
+    ..:: dRep dereplicate Step 2. Cluster ::..
+***************************************************
+    
+Running primary clustering
+Running pair-wise MASH clustering
+13 primary clusters made
+Running secondary clustering
+Running 28 ANImf comparisons- should take ~ 2.3 min
+Step 4. Return output
+***************************************************
+    ..:: dRep dereplicate Step 3. Choose ::..
+***************************************************
+    
+Loading work directory
+***************************************************
+    ..:: dRep dereplicate Step 4. Evaluate ::..
+***************************************************
+    
+will provide warnings about clusters
+0 warnings generated: saved to /media/user/T7/AnniZ/assembly/derep/az/log/warnings.txt
+will produce Widb (winner information db)
+Winner database saved to /media/user/T7/AnniZ/assembly/derep/azdata_tables/Widb.csv
+***************************************************
+    ..:: dRep dereplicate Step 5. Analyze ::..
+***************************************************
+    
+making plots 1, 2, 3, 4, 5, 6
+Plotting primary dendrogram
+Plotting secondary dendrograms
+Plotting MDS plot
+Plotting scatterplots
+Plotting bin scorring plot
+Plotting winning genomes plot...
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+    ..:: dRep dereplicate finished ::..
+
+Dereplicated genomes................. /media/user/T7/AnniZ/assembly/derep/az/dereplicated_genomes/
+Dereplicated genomes information..... /media/user/T7/AnniZ/assembly/derep/az/data_tables/Widb.csv
+Figures.............................. /media/user/T7/AnniZ/assembly/derep/az/figures/
+Warnings............................. /media/user/T7/AnniZ/assembly/derep/az/log/warnings.txt
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+    
+subscripts/ba.sh: line 3: activate: No such file or directory
+***************************************************
+    ..:: dRep dereplicate Step 1. Filter ::..
+***************************************************
+    
+Will filter the genome list
+Calculating genome info of genomes
+100.00% of genomes passed length filtering
+Running prodigal
+Running checkM
+17.65% of genomes passed checkM filtering
+***************************************************
+    ..:: dRep dereplicate Step 2. Cluster ::..
+***************************************************
+    
+Running primary clustering
+Running pair-wise MASH clustering
+3 primary clusters made
+Running secondary clustering
+Running 3 ANImf comparisons- should take ~ 0.2 min
+Step 4. Return output
+***************************************************
+    ..:: dRep dereplicate Step 3. Choose ::..
+***************************************************
+    
+Loading work directory
+***************************************************
+    ..:: dRep dereplicate Step 4. Evaluate ::..
+***************************************************
+    
+will provide warnings about clusters
+0 warnings generated: saved to /media/user/T7/AnniZ/assembly/derep/ba/log/warnings.txt
+will produce Widb (winner information db)
+Winner database saved to /media/user/T7/AnniZ/assembly/derep/badata_tables/Widb.csv
+***************************************************
+    ..:: dRep dereplicate Step 5. Analyze ::..
+***************************************************
+    
+making plots 1, 2, 3, 4, 5, 6
+Plotting primary dendrogram
+Plotting secondary dendrograms
+Plotting MDS plot
+Plotting scatterplots
+Plotting bin scorring plot
+Plotting winning genomes plot...
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+    ..:: dRep dereplicate finished ::..
+
+Dereplicated genomes................. /media/user/T7/AnniZ/assembly/derep/ba/dereplicated_genomes/
+Dereplicated genomes information..... /media/user/T7/AnniZ/assembly/derep/ba/data_tables/Widb.csv
+Figures.............................. /media/user/T7/AnniZ/assembly/derep/ba/figures/
+Warnings............................. /media/user/T7/AnniZ/assembly/derep/ba/log/warnings.txt
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+    
+subscripts/be.sh: line 3: activate: No such file or directory
+***************************************************
+    ..:: dRep dereplicate Step 1. Filter ::..
+***************************************************
+    
+Will filter the genome list
+Calculating genome info of genomes
+100.00% of genomes passed length filtering
+Running prodigal
+Running checkM
+33.33% of genomes passed checkM filtering
+***************************************************
+    ..:: dRep dereplicate Step 2. Cluster ::..
+***************************************************
+    
+Running primary clustering
+Running pair-wise MASH clustering
+11 primary clusters made
+Running secondary clustering
+Running 20 ANImf comparisons- should take ~ 1.7 min
+Step 4. Return output
+***************************************************
+    ..:: dRep dereplicate Step 3. Choose ::..
+***************************************************
+    
+Loading work directory
+***************************************************
+    ..:: dRep dereplicate Step 4. Evaluate ::..
+***************************************************
+    
+will provide warnings about clusters
+0 warnings generated: saved to /media/user/T7/AnniZ/assembly/derep/be/log/warnings.txt
+will produce Widb (winner information db)
+Winner database saved to /media/user/T7/AnniZ/assembly/derep/bedata_tables/Widb.csv
+***************************************************
+    ..:: dRep dereplicate Step 5. Analyze ::..
+***************************************************
+    
+making plots 1, 2, 3, 4, 5, 6
+Plotting primary dendrogram
+Plotting secondary dendrograms
+Plotting MDS plot
+Plotting scatterplots
+Plotting bin scorring plot
+Plotting winning genomes plot...
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+    ..:: dRep dereplicate finished ::..
+
+Dereplicated genomes................. /media/user/T7/AnniZ/assembly/derep/be/dereplicated_genomes/
+Dereplicated genomes information..... /media/user/T7/AnniZ/assembly/derep/be/data_tables/Widb.csv
+Figures.............................. /media/user/T7/AnniZ/assembly/derep/be/figures/
+Warnings............................. /media/user/T7/AnniZ/assembly/derep/be/log/warnings.txt
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+    
+subscripts/bf.sh: line 3: activate: No such file or directory
+***************************************************
+    ..:: dRep dereplicate Step 1. Filter ::..
+***************************************************
+    
+Will filter the genome list
+Calculating genome info of genomes
+100.00% of genomes passed length filtering
+Running prodigal
+Running checkM
+36.11% of genomes passed checkM filtering
+***************************************************
+    ..:: dRep dereplicate Step 2. Cluster ::..
+***************************************************
+    
+Running primary clustering
+Running pair-wise MASH clustering
+11 primary clusters made
+Running secondary clustering
+Running 17 ANImf comparisons- should take ~ 1.4 min
+Step 4. Return output
+***************************************************
+    ..:: dRep dereplicate Step 3. Choose ::..
+***************************************************
+    
+Loading work directory
+***************************************************
+    ..:: dRep dereplicate Step 4. Evaluate ::..
+***************************************************
+    
+will provide warnings about clusters
+0 warnings generated: saved to /media/user/T7/AnniZ/assembly/derep/bf/log/warnings.txt
+will produce Widb (winner information db)
+Winner database saved to /media/user/T7/AnniZ/assembly/derep/bfdata_tables/Widb.csv
+***************************************************
+    ..:: dRep dereplicate Step 5. Analyze ::..
+***************************************************
+    
+making plots 1, 2, 3, 4, 5, 6
+Plotting primary dendrogram
+Plotting secondary dendrograms
+Plotting MDS plot
+Plotting scatterplots
+Plotting bin scorring plot
+Plotting winning genomes plot...
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+    ..:: dRep dereplicate finished ::..
+
+Dereplicated genomes................. /media/user/T7/AnniZ/assembly/derep/bf/dereplicated_genomes/
+Dereplicated genomes information..... /media/user/T7/AnniZ/assembly/derep/bf/data_tables/Widb.csv
+Figures.............................. /media/user/T7/AnniZ/assembly/derep/bf/figures/
+Warnings............................. /media/user/T7/AnniZ/assembly/derep/bf/log/warnings.txt
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+    
+subscripts/bi.sh: line 3: activate: No such file or directory
+***************************************************
+    ..:: dRep dereplicate Step 1. Filter ::..
+***************************************************
+    
+Will filter the genome list
+Calculating genome info of genomes
+100.00% of genomes passed length filtering
+Running prodigal
+Running checkM
+51.35% of genomes passed checkM filtering
+***************************************************
+    ..:: dRep dereplicate Step 2. Cluster ::..
+***************************************************
+    
+Running primary clustering
+Running pair-wise MASH clustering
+12 primary clusters made
+Running secondary clustering
+Running 33 ANImf comparisons- should take ~ 2.8 min
+Step 4. Return output
+***************************************************
+    ..:: dRep dereplicate Step 3. Choose ::..
+***************************************************
+    
+Loading work directory
+***************************************************
+    ..:: dRep dereplicate Step 4. Evaluate ::..
+***************************************************
+    
+will provide warnings about clusters
+0 warnings generated: saved to /media/user/T7/AnniZ/assembly/derep/bi/log/warnings.txt
+will produce Widb (winner information db)
+Winner database saved to /media/user/T7/AnniZ/assembly/derep/bidata_tables/Widb.csv
+***************************************************
+    ..:: dRep dereplicate Step 5. Analyze ::..
+***************************************************
+    
+making plots 1, 2, 3, 4, 5, 6
+Plotting primary dendrogram
+Plotting secondary dendrograms
+Plotting MDS plot
+Plotting scatterplots
+Plotting bin scorring plot
+Plotting winning genomes plot...
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+    ..:: dRep dereplicate finished ::..
+
+Dereplicated genomes................. /media/user/T7/AnniZ/assembly/derep/bi/dereplicated_genomes/
+Dereplicated genomes information..... /media/user/T7/AnniZ/assembly/derep/bi/data_tables/Widb.csv
+Figures.............................. /media/user/T7/AnniZ/assembly/derep/bi/figures/
+Warnings............................. /media/user/T7/AnniZ/assembly/derep/bi/log/warnings.txt
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+    
+subscripts/bk.sh: line 3: activate: No such file or directory
+***************************************************
+    ..:: dRep dereplicate Step 1. Filter ::..
+***************************************************
+    
+Will filter the genome list
+Calculating genome info of genomes
+100.00% of genomes passed length filtering
+Running prodigal
+Running checkM
+45.45% of genomes passed checkM filtering
+***************************************************
+    ..:: dRep dereplicate Step 2. Cluster ::..
+***************************************************
+    
+Running primary clustering
+Running pair-wise MASH clustering
+13 primary clusters made
+Running secondary clustering
+Running 34 ANImf comparisons- should take ~ 2.8 min
+Step 4. Return output
+***************************************************
+    ..:: dRep dereplicate Step 3. Choose ::..
+***************************************************
+    
+Loading work directory
+***************************************************
+    ..:: dRep dereplicate Step 4. Evaluate ::..
+***************************************************
+    
+will provide warnings about clusters
+0 warnings generated: saved to /media/user/T7/AnniZ/assembly/derep/bk/log/warnings.txt
+will produce Widb (winner information db)
+Winner database saved to /media/user/T7/AnniZ/assembly/derep/bkdata_tables/Widb.csv
+***************************************************
+    ..:: dRep dereplicate Step 5. Analyze ::..
+***************************************************
+    
+making plots 1, 2, 3, 4, 5, 6
+Plotting primary dendrogram
+Plotting secondary dendrograms
+Plotting MDS plot
+Plotting scatterplots
+Plotting bin scorring plot
+Plotting winning genomes plot...
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+    ..:: dRep dereplicate finished ::..
+
+Dereplicated genomes................. /media/user/T7/AnniZ/assembly/derep/bk/dereplicated_genomes/
+Dereplicated genomes information..... /media/user/T7/AnniZ/assembly/derep/bk/data_tables/Widb.csv
+Figures.............................. /media/user/T7/AnniZ/assembly/derep/bk/figures/
+Warnings............................. /media/user/T7/AnniZ/assembly/derep/bk/log/warnings.txt
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+    
+subscripts/bl.sh: line 3: activate: No such file or directory
+***************************************************
+    ..:: dRep dereplicate Step 1. Filter ::..
+***************************************************
+    
+Will filter the genome list
+Calculating genome info of genomes
+100.00% of genomes passed length filtering
+Running prodigal
+Running checkM
+28.12% of genomes passed checkM filtering
+***************************************************
+    ..:: dRep dereplicate Step 2. Cluster ::..
+***************************************************
+    
+Running primary clustering
+Running pair-wise MASH clustering
+7 primary clusters made
+Running secondary clustering
+Running 13 ANImf comparisons- should take ~ 1.1 min
+Step 4. Return output
+***************************************************
+    ..:: dRep dereplicate Step 3. Choose ::..
+***************************************************
+    
+Loading work directory
+***************************************************
+    ..:: dRep dereplicate Step 4. Evaluate ::..
+***************************************************
+    
+will provide warnings about clusters
+0 warnings generated: saved to /media/user/T7/AnniZ/assembly/derep/bl/log/warnings.txt
+will produce Widb (winner information db)
+Winner database saved to /media/user/T7/AnniZ/assembly/derep/bldata_tables/Widb.csv
+***************************************************
+    ..:: dRep dereplicate Step 5. Analyze ::..
+***************************************************
+    
+making plots 1, 2, 3, 4, 5, 6
+Plotting primary dendrogram
+Plotting secondary dendrograms
+Plotting MDS plot
+Plotting scatterplots
+Plotting bin scorring plot
+Plotting winning genomes plot...
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+    ..:: dRep dereplicate finished ::..
+
+Dereplicated genomes................. /media/user/T7/AnniZ/assembly/derep/bl/dereplicated_genomes/
+Dereplicated genomes information..... /media/user/T7/AnniZ/assembly/derep/bl/data_tables/Widb.csv
+Figures.............................. /media/user/T7/AnniZ/assembly/derep/bl/figures/
+Warnings............................. /media/user/T7/AnniZ/assembly/derep/bl/log/warnings.txt
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+    
+subscripts/bm.sh: line 3: activate: No such file or directory
+***************************************************
+    ..:: dRep dereplicate Step 1. Filter ::..
+***************************************************
+    
+Will filter the genome list
+Calculating genome info of genomes
+100.00% of genomes passed length filtering
+Running prodigal
+Running checkM
+42.11% of genomes passed checkM filtering
+***************************************************
+    ..:: dRep dereplicate Step 2. Cluster ::..
+***************************************************
+    
+Running primary clustering
+Running pair-wise MASH clustering
+13 primary clusters made
+Running secondary clustering
+Running 22 ANImf comparisons- should take ~ 1.8 min
+Step 4. Return output
+***************************************************
+    ..:: dRep dereplicate Step 3. Choose ::..
+***************************************************
+    
+Loading work directory
+***************************************************
+    ..:: dRep dereplicate Step 4. Evaluate ::..
+***************************************************
+    
+will provide warnings about clusters
+0 warnings generated: saved to /media/user/T7/AnniZ/assembly/derep/bm/log/warnings.txt
+will produce Widb (winner information db)
+Winner database saved to /media/user/T7/AnniZ/assembly/derep/bmdata_tables/Widb.csv
+***************************************************
+    ..:: dRep dereplicate Step 5. Analyze ::..
+***************************************************
+    
+making plots 1, 2, 3, 4, 5, 6
+Plotting primary dendrogram
+Plotting secondary dendrograms
+Plotting MDS plot
+Plotting scatterplots
+Plotting bin scorring plot
+Plotting winning genomes plot...
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+    ..:: dRep dereplicate finished ::..
+
+Dereplicated genomes................. /media/user/T7/AnniZ/assembly/derep/bm/dereplicated_genomes/
+Dereplicated genomes information..... /media/user/T7/AnniZ/assembly/derep/bm/data_tables/Widb.csv
+Figures.............................. /media/user/T7/AnniZ/assembly/derep/bm/figures/
+Warnings............................. /media/user/T7/AnniZ/assembly/derep/bm/log/warnings.txt
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+    
+subscripts/bn.sh: line 3: activate: No such file or directory
+***************************************************
+    ..:: dRep dereplicate Step 1. Filter ::..
+***************************************************
+    
+Will filter the genome list
+Calculating genome info of genomes
+100.00% of genomes passed length filtering
+Running prodigal
+Running checkM
+31.58% of genomes passed checkM filtering
+***************************************************
+    ..:: dRep dereplicate Step 2. Cluster ::..
+***************************************************
+    
+Running primary clustering
+Running pair-wise MASH clustering
+8 primary clusters made
+Running secondary clustering
+Running 20 ANImf comparisons- should take ~ 1.7 min
+Step 4. Return output
+***************************************************
+    ..:: dRep dereplicate Step 3. Choose ::..
+***************************************************
+    
+Loading work directory
+***************************************************
+    ..:: dRep dereplicate Step 4. Evaluate ::..
+***************************************************
+    
+will provide warnings about clusters
+0 warnings generated: saved to /media/user/T7/AnniZ/assembly/derep/bn/log/warnings.txt
+will produce Widb (winner information db)
+Winner database saved to /media/user/T7/AnniZ/assembly/derep/bndata_tables/Widb.csv
+***************************************************
+    ..:: dRep dereplicate Step 5. Analyze ::..
+***************************************************
+    
+making plots 1, 2, 3, 4, 5, 6
+Plotting primary dendrogram
+Plotting secondary dendrograms
+Plotting MDS plot
+Plotting scatterplots
+Plotting bin scorring plot
+Plotting winning genomes plot...
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+    ..:: dRep dereplicate finished ::..
+
+Dereplicated genomes................. /media/user/T7/AnniZ/assembly/derep/bn/dereplicated_genomes/
+Dereplicated genomes information..... /media/user/T7/AnniZ/assembly/derep/bn/data_tables/Widb.csv
+Figures.............................. /media/user/T7/AnniZ/assembly/derep/bn/figures/
+Warnings............................. /media/user/T7/AnniZ/assembly/derep/bn/log/warnings.txt
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+    
+subscripts/bo.sh: line 3: activate: No such file or directory
+***************************************************
+    ..:: dRep dereplicate Step 1. Filter ::..
+***************************************************
+    
+Will filter the genome list
+Calculating genome info of genomes
+100.00% of genomes passed length filtering
+Running prodigal
+Running checkM
+37.50% of genomes passed checkM filtering
+***************************************************
+    ..:: dRep dereplicate Step 2. Cluster ::..
+***************************************************
+    
+Running primary clustering
+Running pair-wise MASH clustering
+19 primary clusters made
+Running secondary clustering
+Running 25 ANImf comparisons- should take ~ 2.1 min
+Step 4. Return output
+***************************************************
+    ..:: dRep dereplicate Step 3. Choose ::..
+***************************************************
+    
+Loading work directory
+***************************************************
+    ..:: dRep dereplicate Step 4. Evaluate ::..
+***************************************************
+    
+will provide warnings about clusters
+0 warnings generated: saved to /media/user/T7/AnniZ/assembly/derep/bo/log/warnings.txt
+will produce Widb (winner information db)
+Winner database saved to /media/user/T7/AnniZ/assembly/derep/bodata_tables/Widb.csv
+***************************************************
+    ..:: dRep dereplicate Step 5. Analyze ::..
+***************************************************
+    
+making plots 1, 2, 3, 4, 5, 6
+Plotting primary dendrogram
+Plotting secondary dendrograms
+Plotting MDS plot
+Plotting scatterplots
+Plotting bin scorring plot
+Plotting winning genomes plot...
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+    ..:: dRep dereplicate finished ::..
+
+Dereplicated genomes................. /media/user/T7/AnniZ/assembly/derep/bo/dereplicated_genomes/
+Dereplicated genomes information..... /media/user/T7/AnniZ/assembly/derep/bo/data_tables/Widb.csv
+Figures.............................. /media/user/T7/AnniZ/assembly/derep/bo/figures/
+Warnings............................. /media/user/T7/AnniZ/assembly/derep/bo/log/warnings.txt
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+    
+subscripts/bp.sh: line 3: activate: No such file or directory
+***************************************************
+    ..:: dRep dereplicate Step 1. Filter ::..
+***************************************************
+    
+Will filter the genome list
+Calculating genome info of genomes
+100.00% of genomes passed length filtering
+Running prodigal
+Running checkM
+36.36% of genomes passed checkM filtering
+***************************************************
+    ..:: dRep dereplicate Step 2. Cluster ::..
+***************************************************
+    
+Running primary clustering
+Running pair-wise MASH clustering
+6 primary clusters made
+Running secondary clustering
+Running 12 ANImf comparisons- should take ~ 1.0 min
+Step 4. Return output
+***************************************************
+    ..:: dRep dereplicate Step 3. Choose ::..
+***************************************************
+    
+Loading work directory
+***************************************************
+    ..:: dRep dereplicate Step 4. Evaluate ::..
+***************************************************
+    
+will provide warnings about clusters
+0 warnings generated: saved to /media/user/T7/AnniZ/assembly/derep/bp/log/warnings.txt
+will produce Widb (winner information db)
+Winner database saved to /media/user/T7/AnniZ/assembly/derep/bpdata_tables/Widb.csv
+***************************************************
+    ..:: dRep dereplicate Step 5. Analyze ::..
+***************************************************
+    
+making plots 1, 2, 3, 4, 5, 6
+Plotting primary dendrogram
+Plotting secondary dendrograms
+Plotting MDS plot
+Plotting scatterplots
+Plotting bin scorring plot
+Plotting winning genomes plot...
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+    ..:: dRep dereplicate finished ::..
+
+Dereplicated genomes................. /media/user/T7/AnniZ/assembly/derep/bp/dereplicated_genomes/
+Dereplicated genomes information..... /media/user/T7/AnniZ/assembly/derep/bp/data_tables/Widb.csv
+Figures.............................. /media/user/T7/AnniZ/assembly/derep/bp/figures/
+Warnings............................. /media/user/T7/AnniZ/assembly/derep/bp/log/warnings.txt
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+    
+subscripts/bq.sh: line 3: activate: No such file or directory
+***************************************************
+    ..:: dRep dereplicate Step 1. Filter ::..
+***************************************************
+    
+Will filter the genome list
+Calculating genome info of genomes
+100.00% of genomes passed length filtering
+Running prodigal
+Running checkM
+40.00% of genomes passed checkM filtering
+***************************************************
+    ..:: dRep dereplicate Step 2. Cluster ::..
+***************************************************
+    
+Running primary clustering
+Running pair-wise MASH clustering
+10 primary clusters made
+Running secondary clustering
+Running 22 ANImf comparisons- should take ~ 1.8 min
+Step 4. Return output
+***************************************************
+    ..:: dRep dereplicate Step 3. Choose ::..
+***************************************************
+    
+Loading work directory
+***************************************************
+    ..:: dRep dereplicate Step 4. Evaluate ::..
+***************************************************
+    
+will provide warnings about clusters
+0 warnings generated: saved to /media/user/T7/AnniZ/assembly/derep/bq/log/warnings.txt
+will produce Widb (winner information db)
+Winner database saved to /media/user/T7/AnniZ/assembly/derep/bqdata_tables/Widb.csv
+***************************************************
+    ..:: dRep dereplicate Step 5. Analyze ::..
+***************************************************
+    
+making plots 1, 2, 3, 4, 5, 6
+Plotting primary dendrogram
+Plotting secondary dendrograms
+Plotting MDS plot
+Plotting scatterplots
+Plotting bin scorring plot
+Plotting winning genomes plot...
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+    ..:: dRep dereplicate finished ::..
+
+Dereplicated genomes................. /media/user/T7/AnniZ/assembly/derep/bq/dereplicated_genomes/
+Dereplicated genomes information..... /media/user/T7/AnniZ/assembly/derep/bq/data_tables/Widb.csv
+Figures.............................. /media/user/T7/AnniZ/assembly/derep/bq/figures/
+Warnings............................. /media/user/T7/AnniZ/assembly/derep/bq/log/warnings.txt
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+    
+subscripts/br.sh: line 3: activate: No such file or directory
+***************************************************
+    ..:: dRep dereplicate Step 1. Filter ::..
+***************************************************
+    
+Will filter the genome list
+Calculating genome info of genomes
+100.00% of genomes passed length filtering
+Running prodigal
+Running checkM
+32.84% of genomes passed checkM filtering
+***************************************************
+    ..:: dRep dereplicate Step 2. Cluster ::..
+***************************************************
+    
+Running primary clustering
+Running pair-wise MASH clustering
+16 primary clusters made
+Running secondary clustering
+Running 34 ANImf comparisons- should take ~ 2.8 min
+Step 4. Return output
+***************************************************
+    ..:: dRep dereplicate Step 3. Choose ::..
+***************************************************
+    
+Loading work directory
+***************************************************
+    ..:: dRep dereplicate Step 4. Evaluate ::..
+***************************************************
+    
+will provide warnings about clusters
+1 warnings generated: saved to /media/user/T7/AnniZ/assembly/derep/br/log/warnings.txt
+will produce Widb (winner information db)
+Winner database saved to /media/user/T7/AnniZ/assembly/derep/brdata_tables/Widb.csv
+***************************************************
+    ..:: dRep dereplicate Step 5. Analyze ::..
+***************************************************
+    
+making plots 1, 2, 3, 4, 5, 6
+Plotting primary dendrogram
+Plotting secondary dendrograms
+Plotting MDS plot
+Plotting scatterplots
+Plotting bin scorring plot
+Plotting winning genomes plot...
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+    ..:: dRep dereplicate finished ::..
+
+Dereplicated genomes................. /media/user/T7/AnniZ/assembly/derep/br/dereplicated_genomes/
+Dereplicated genomes information..... /media/user/T7/AnniZ/assembly/derep/br/data_tables/Widb.csv
+Figures.............................. /media/user/T7/AnniZ/assembly/derep/br/figures/
+Warnings............................. /media/user/T7/AnniZ/assembly/derep/br/log/warnings.txt
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+    
+subscripts/bs.sh: line 3: activate: No such file or directory
+***************************************************
+    ..:: dRep dereplicate Step 1. Filter ::..
+***************************************************
+    
+Will filter the genome list
+Calculating genome info of genomes
+100.00% of genomes passed length filtering
+Running prodigal
+Running checkM
+42.00% of genomes passed checkM filtering
+***************************************************
+    ..:: dRep dereplicate Step 2. Cluster ::..
+***************************************************
+    
+Running primary clustering
+Running pair-wise MASH clustering
+13 primary clusters made
+Running secondary clustering
+Running 37 ANImf comparisons- should take ~ 3.1 min
+Step 4. Return output
+***************************************************
+    ..:: dRep dereplicate Step 3. Choose ::..
+***************************************************
+    
+Loading work directory
+***************************************************
+    ..:: dRep dereplicate Step 4. Evaluate ::..
+***************************************************
+    
+will provide warnings about clusters
+0 warnings generated: saved to /media/user/T7/AnniZ/assembly/derep/bs/log/warnings.txt
+will produce Widb (winner information db)
+Winner database saved to /media/user/T7/AnniZ/assembly/derep/bsdata_tables/Widb.csv
+***************************************************
+    ..:: dRep dereplicate Step 5. Analyze ::..
+***************************************************
+    
+making plots 1, 2, 3, 4, 5, 6
+Plotting primary dendrogram
+Plotting secondary dendrograms
+Plotting MDS plot
+Plotting scatterplots
+Plotting bin scorring plot
+Plotting winning genomes plot...
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+    ..:: dRep dereplicate finished ::..
+
+Dereplicated genomes................. /media/user/T7/AnniZ/assembly/derep/bs/dereplicated_genomes/
+Dereplicated genomes information..... /media/user/T7/AnniZ/assembly/derep/bs/data_tables/Widb.csv
+Figures.............................. /media/user/T7/AnniZ/assembly/derep/bs/figures/
+Warnings............................. /media/user/T7/AnniZ/assembly/derep/bs/log/warnings.txt
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+    
+subscripts/bt.sh: line 3: activate: No such file or directory
+***************************************************
+    ..:: dRep dereplicate Step 1. Filter ::..
+***************************************************
+    
+Will filter the genome list
+Calculating genome info of genomes
+100.00% of genomes passed length filtering
+Running prodigal
+Running checkM
+39.68% of genomes passed checkM filtering
+***************************************************
+    ..:: dRep dereplicate Step 2. Cluster ::..
+***************************************************
+    
+Running primary clustering
+Running pair-wise MASH clustering
+16 primary clusters made
+Running secondary clustering
+Running 43 ANImf comparisons- should take ~ 3.6 min
+Step 4. Return output
+***************************************************
+    ..:: dRep dereplicate Step 3. Choose ::..
+***************************************************
+    
+Loading work directory
+***************************************************
+    ..:: dRep dereplicate Step 4. Evaluate ::..
+***************************************************
+    
+will provide warnings about clusters
+1 warnings generated: saved to /media/user/T7/AnniZ/assembly/derep/bt/log/warnings.txt
+will produce Widb (winner information db)
+Winner database saved to /media/user/T7/AnniZ/assembly/derep/btdata_tables/Widb.csv
+***************************************************
+    ..:: dRep dereplicate Step 5. Analyze ::..
+***************************************************
+    
+making plots 1, 2, 3, 4, 5, 6
+Plotting primary dendrogram
+Plotting secondary dendrograms
+Plotting MDS plot
+Plotting scatterplots
+Plotting bin scorring plot
+Plotting winning genomes plot...
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+    ..:: dRep dereplicate finished ::..
+
+Dereplicated genomes................. /media/user/T7/AnniZ/assembly/derep/bt/dereplicated_genomes/
+Dereplicated genomes information..... /media/user/T7/AnniZ/assembly/derep/bt/data_tables/Widb.csv
+Figures.............................. /media/user/T7/AnniZ/assembly/derep/bt/figures/
+Warnings............................. /media/user/T7/AnniZ/assembly/derep/bt/log/warnings.txt
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+    
+subscripts/bu.sh: line 3: activate: No such file or directory
+***************************************************
+    ..:: dRep dereplicate Step 1. Filter ::..
+***************************************************
+    
+Will filter the genome list
+Calculating genome info of genomes
+100.00% of genomes passed length filtering
+Running prodigal
+Running checkM
+41.67% of genomes passed checkM filtering
+***************************************************
+    ..:: dRep dereplicate Step 2. Cluster ::..
+***************************************************
+    
+Running primary clustering
+Running pair-wise MASH clustering
+9 primary clusters made
+Running secondary clustering
+Running 27 ANImf comparisons- should take ~ 2.2 min
+Step 4. Return output
+***************************************************
+    ..:: dRep dereplicate Step 3. Choose ::..
+***************************************************
+    
+Loading work directory
+***************************************************
+    ..:: dRep dereplicate Step 4. Evaluate ::..
+***************************************************
+    
+will provide warnings about clusters
+0 warnings generated: saved to /media/user/T7/AnniZ/assembly/derep/bu/log/warnings.txt
+will produce Widb (winner information db)
+Winner database saved to /media/user/T7/AnniZ/assembly/derep/budata_tables/Widb.csv
+***************************************************
+    ..:: dRep dereplicate Step 5. Analyze ::..
+***************************************************
+    
+making plots 1, 2, 3, 4, 5, 6
+Plotting primary dendrogram
+Plotting secondary dendrograms
+Plotting MDS plot
+Plotting scatterplots
+Plotting bin scorring plot
+Plotting winning genomes plot...
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+    ..:: dRep dereplicate finished ::..
+
+Dereplicated genomes................. /media/user/T7/AnniZ/assembly/derep/bu/dereplicated_genomes/
+Dereplicated genomes information..... /media/user/T7/AnniZ/assembly/derep/bu/data_tables/Widb.csv
+Figures.............................. /media/user/T7/AnniZ/assembly/derep/bu/figures/
+Warnings............................. /media/user/T7/AnniZ/assembly/derep/bu/log/warnings.txt
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+    
+subscripts/bv.sh: line 3: activate: No such file or directory
+***************************************************
+    ..:: dRep dereplicate Step 1. Filter ::..
+***************************************************
+    
+Will filter the genome list
+Calculating genome info of genomes
+100.00% of genomes passed length filtering
+Running prodigal
+Running checkM
+51.28% of genomes passed checkM filtering
+***************************************************
+    ..:: dRep dereplicate Step 2. Cluster ::..
+***************************************************
+    
+Running primary clustering
+Running pair-wise MASH clustering
+14 primary clusters made
+Running secondary clustering
+Running 32 ANImf comparisons- should take ~ 2.7 min
+Step 4. Return output
+***************************************************
+    ..:: dRep dereplicate Step 3. Choose ::..
+***************************************************
+    
+Loading work directory
+***************************************************
+    ..:: dRep dereplicate Step 4. Evaluate ::..
+***************************************************
+    
+will provide warnings about clusters
+1 warnings generated: saved to /media/user/T7/AnniZ/assembly/derep/bv/log/warnings.txt
+will produce Widb (winner information db)
+Winner database saved to /media/user/T7/AnniZ/assembly/derep/bvdata_tables/Widb.csv
+***************************************************
+    ..:: dRep dereplicate Step 5. Analyze ::..
+***************************************************
+    
+making plots 1, 2, 3, 4, 5, 6
+Plotting primary dendrogram
+Plotting secondary dendrograms
+Plotting MDS plot
+Plotting scatterplots
+Plotting bin scorring plot
+Plotting winning genomes plot...
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+    ..:: dRep dereplicate finished ::..
+
+Dereplicated genomes................. /media/user/T7/AnniZ/assembly/derep/bv/dereplicated_genomes/
+Dereplicated genomes information..... /media/user/T7/AnniZ/assembly/derep/bv/data_tables/Widb.csv
+Figures.............................. /media/user/T7/AnniZ/assembly/derep/bv/figures/
+Warnings............................. /media/user/T7/AnniZ/assembly/derep/bv/log/warnings.txt
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+    
+subscripts/bw.sh: line 3: activate: No such file or directory
+***************************************************
+    ..:: dRep dereplicate Step 1. Filter ::..
+***************************************************
+    
+Will filter the genome list
+Calculating genome info of genomes
+100.00% of genomes passed length filtering
+Running prodigal
+Running checkM
+23.68% of genomes passed checkM filtering
+***************************************************
+    ..:: dRep dereplicate Step 2. Cluster ::..
+***************************************************
+    
+Running primary clustering
+Running pair-wise MASH clustering
+7 primary clusters made
+Running secondary clustering
+Running 13 ANImf comparisons- should take ~ 1.1 min
+Step 4. Return output
+***************************************************
+    ..:: dRep dereplicate Step 3. Choose ::..
+***************************************************
+    
+Loading work directory
+***************************************************
+    ..:: dRep dereplicate Step 4. Evaluate ::..
+***************************************************
+    
+will provide warnings about clusters
+0 warnings generated: saved to /media/user/T7/AnniZ/assembly/derep/bw/log/warnings.txt
+will produce Widb (winner information db)
+Winner database saved to /media/user/T7/AnniZ/assembly/derep/bwdata_tables/Widb.csv
+***************************************************
+    ..:: dRep dereplicate Step 5. Analyze ::..
+***************************************************
+    
+making plots 1, 2, 3, 4, 5, 6
+Plotting primary dendrogram
+Plotting secondary dendrograms
+Plotting MDS plot
+Plotting scatterplots
+Plotting bin scorring plot
+Plotting winning genomes plot...
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+    ..:: dRep dereplicate finished ::..
+
+Dereplicated genomes................. /media/user/T7/AnniZ/assembly/derep/bw/dereplicated_genomes/
+Dereplicated genomes information..... /media/user/T7/AnniZ/assembly/derep/bw/data_tables/Widb.csv
+Figures.............................. /media/user/T7/AnniZ/assembly/derep/bw/figures/
+Warnings............................. /media/user/T7/AnniZ/assembly/derep/bw/log/warnings.txt
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+    
+subscripts/bx.sh: line 3: activate: No such file or directory
+***************************************************
+    ..:: dRep dereplicate Step 1. Filter ::..
+***************************************************
+    
+Will filter the genome list
+Calculating genome info of genomes
+100.00% of genomes passed length filtering
+Running prodigal
+Running checkM
+33.96% of genomes passed checkM filtering
+***************************************************
+    ..:: dRep dereplicate Step 2. Cluster ::..
+***************************************************
+    
+Running primary clustering
+Running pair-wise MASH clustering
+14 primary clusters made
+Running secondary clustering
+Running 26 ANImf comparisons- should take ~ 2.2 min
+Step 4. Return output
+***************************************************
+    ..:: dRep dereplicate Step 3. Choose ::..
+***************************************************
+    
+Loading work directory
+***************************************************
+    ..:: dRep dereplicate Step 4. Evaluate ::..
+***************************************************
+    
+will provide warnings about clusters
+0 warnings generated: saved to /media/user/T7/AnniZ/assembly/derep/bx/log/warnings.txt
+will produce Widb (winner information db)
+Winner database saved to /media/user/T7/AnniZ/assembly/derep/bxdata_tables/Widb.csv
+***************************************************
+    ..:: dRep dereplicate Step 5. Analyze ::..
+***************************************************
+    
+making plots 1, 2, 3, 4, 5, 6
+Plotting primary dendrogram
+Plotting secondary dendrograms
+Plotting MDS plot
+Plotting scatterplots
+Plotting bin scorring plot
+Plotting winning genomes plot...
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+    ..:: dRep dereplicate finished ::..
+
+Dereplicated genomes................. /media/user/T7/AnniZ/assembly/derep/bx/dereplicated_genomes/
+Dereplicated genomes information..... /media/user/T7/AnniZ/assembly/derep/bx/data_tables/Widb.csv
+Figures.............................. /media/user/T7/AnniZ/assembly/derep/bx/figures/
+Warnings............................. /media/user/T7/AnniZ/assembly/derep/bx/log/warnings.txt
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+    
+subscripts/by.sh: line 3: activate: No such file or directory
+***************************************************
+    ..:: dRep dereplicate Step 1. Filter ::..
+***************************************************
+    
+Will filter the genome list
+Calculating genome info of genomes
+100.00% of genomes passed length filtering
+Running prodigal
+Running checkM
+35.00% of genomes passed checkM filtering
+***************************************************
+    ..:: dRep dereplicate Step 2. Cluster ::..
+***************************************************
+    
+Running primary clustering
+Running pair-wise MASH clustering
+5 primary clusters made
+Running secondary clustering
+Running 11 ANImf comparisons- should take ~ 0.9 min
+Step 4. Return output
+***************************************************
+    ..:: dRep dereplicate Step 3. Choose ::..
+***************************************************
+    
+Loading work directory
+***************************************************
+    ..:: dRep dereplicate Step 4. Evaluate ::..
+***************************************************
+    
+will provide warnings about clusters
+0 warnings generated: saved to /media/user/T7/AnniZ/assembly/derep/by/log/warnings.txt
+will produce Widb (winner information db)
+Winner database saved to /media/user/T7/AnniZ/assembly/derep/bydata_tables/Widb.csv
+***************************************************
+    ..:: dRep dereplicate Step 5. Analyze ::..
+***************************************************
+    
+making plots 1, 2, 3, 4, 5, 6
+Plotting primary dendrogram
+Plotting secondary dendrograms
+Plotting MDS plot
+Plotting scatterplots
+Plotting bin scorring plot
+Plotting winning genomes plot...
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+    ..:: dRep dereplicate finished ::..
+
+Dereplicated genomes................. /media/user/T7/AnniZ/assembly/derep/by/dereplicated_genomes/
+Dereplicated genomes information..... /media/user/T7/AnniZ/assembly/derep/by/data_tables/Widb.csv
+Figures.............................. /media/user/T7/AnniZ/assembly/derep/by/figures/
+Warnings............................. /media/user/T7/AnniZ/assembly/derep/by/log/warnings.txt
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+    
+subscripts/bz.sh: line 3: activate: No such file or directory
+***************************************************
+    ..:: dRep dereplicate Step 1. Filter ::..
+***************************************************
+    
+Will filter the genome list
+Calculating genome info of genomes
+100.00% of genomes passed length filtering
+Running prodigal
+Running checkM
+35.29% of genomes passed checkM filtering
+***************************************************
+    ..:: dRep dereplicate Step 2. Cluster ::..
+***************************************************
+    
+Running primary clustering
+Running pair-wise MASH clustering
+9 primary clusters made
+Running secondary clustering
+Running 18 ANImf comparisons- should take ~ 1.5 min
+Step 4. Return output
+***************************************************
+    ..:: dRep dereplicate Step 3. Choose ::..
+***************************************************
+    
+Loading work directory
+***************************************************
+    ..:: dRep dereplicate Step 4. Evaluate ::..
+***************************************************
+    
+will provide warnings about clusters
+0 warnings generated: saved to /media/user/T7/AnniZ/assembly/derep/bz/log/warnings.txt
+will produce Widb (winner information db)
+Winner database saved to /media/user/T7/AnniZ/assembly/derep/bzdata_tables/Widb.csv
+***************************************************
+    ..:: dRep dereplicate Step 5. Analyze ::..
+***************************************************
+    
+making plots 1, 2, 3, 4, 5, 6
+Plotting primary dendrogram
+Plotting secondary dendrograms
+Plotting MDS plot
+Plotting scatterplots
+Plotting bin scorring plot
+Plotting winning genomes plot...
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+    ..:: dRep dereplicate finished ::..
+
+Dereplicated genomes................. /media/user/T7/AnniZ/assembly/derep/bz/dereplicated_genomes/
+Dereplicated genomes information..... /media/user/T7/AnniZ/assembly/derep/bz/data_tables/Widb.csv
+Figures.............................. /media/user/T7/AnniZ/assembly/derep/bz/figures/
+Warnings............................. /media/user/T7/AnniZ/assembly/derep/bz/log/warnings.txt
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+    
+subscripts/ca.sh: line 3: activate: No such file or directory
+***************************************************
+    ..:: dRep dereplicate Step 1. Filter ::..
+***************************************************
+    
+Will filter the genome list
+Calculating genome info of genomes
+100.00% of genomes passed length filtering
+Running prodigal
+Running checkM
+38.46% of genomes passed checkM filtering
+***************************************************
+    ..:: dRep dereplicate Step 2. Cluster ::..
+***************************************************
+    
+Running primary clustering
+Running pair-wise MASH clustering
+10 primary clusters made
+Running secondary clustering
+Running 25 ANImf comparisons- should take ~ 2.1 min
+Step 4. Return output
+***************************************************
+    ..:: dRep dereplicate Step 3. Choose ::..
+***************************************************
+    
+Loading work directory
+***************************************************
+    ..:: dRep dereplicate Step 4. Evaluate ::..
+***************************************************
+    
+will provide warnings about clusters
+0 warnings generated: saved to /media/user/T7/AnniZ/assembly/derep/ca/log/warnings.txt
+will produce Widb (winner information db)
+Winner database saved to /media/user/T7/AnniZ/assembly/derep/cadata_tables/Widb.csv
+***************************************************
+    ..:: dRep dereplicate Step 5. Analyze ::..
+***************************************************
+    
+making plots 1, 2, 3, 4, 5, 6
+Plotting primary dendrogram
+Plotting secondary dendrograms
+Plotting MDS plot
+Plotting scatterplots
+Plotting bin scorring plot
+Plotting winning genomes plot...
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+    ..:: dRep dereplicate finished ::..
+
+Dereplicated genomes................. /media/user/T7/AnniZ/assembly/derep/ca/dereplicated_genomes/
+Dereplicated genomes information..... /media/user/T7/AnniZ/assembly/derep/ca/data_tables/Widb.csv
+Figures.............................. /media/user/T7/AnniZ/assembly/derep/ca/figures/
+Warnings............................. /media/user/T7/AnniZ/assembly/derep/ca/log/warnings.txt
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+    
+subscripts/cb.sh: line 3: activate: No such file or directory
+***************************************************
+    ..:: dRep dereplicate Step 1. Filter ::..
+***************************************************
+    
+Will filter the genome list
+Calculating genome info of genomes
+100.00% of genomes passed length filtering
+Running prodigal
+Running checkM
+40.54% of genomes passed checkM filtering
+***************************************************
+    ..:: dRep dereplicate Step 2. Cluster ::..
+***************************************************
+    
+Running primary clustering
+Running pair-wise MASH clustering
+11 primary clusters made
+Running secondary clustering
+Running 23 ANImf comparisons- should take ~ 1.9 min
+Step 4. Return output
+***************************************************
+    ..:: dRep dereplicate Step 3. Choose ::..
+***************************************************
+    
+Loading work directory
+***************************************************
+    ..:: dRep dereplicate Step 4. Evaluate ::..
+***************************************************
+    
+will provide warnings about clusters
+0 warnings generated: saved to /media/user/T7/AnniZ/assembly/derep/cb/log/warnings.txt
+will produce Widb (winner information db)
+Winner database saved to /media/user/T7/AnniZ/assembly/derep/cbdata_tables/Widb.csv
+***************************************************
+    ..:: dRep dereplicate Step 5. Analyze ::..
+***************************************************
+    
+making plots 1, 2, 3, 4, 5, 6
+Plotting primary dendrogram
+Plotting secondary dendrograms
+Plotting MDS plot
+Plotting scatterplots
+Plotting bin scorring plot
+Plotting winning genomes plot...
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+    ..:: dRep dereplicate finished ::..
+
+Dereplicated genomes................. /media/user/T7/AnniZ/assembly/derep/cb/dereplicated_genomes/
+Dereplicated genomes information..... /media/user/T7/AnniZ/assembly/derep/cb/data_tables/Widb.csv
+Figures.............................. /media/user/T7/AnniZ/assembly/derep/cb/figures/
+Warnings............................. /media/user/T7/AnniZ/assembly/derep/cb/log/warnings.txt
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+    
+subscripts/cc.sh: line 3: activate: No such file or directory
+***************************************************
+    ..:: dRep dereplicate Step 1. Filter ::..
+***************************************************
+    
+Will filter the genome list
+Calculating genome info of genomes
+100.00% of genomes passed length filtering
+Running prodigal
+Running checkM
+38.10% of genomes passed checkM filtering
+***************************************************
+    ..:: dRep dereplicate Step 2. Cluster ::..
+***************************************************
+    
+Running primary clustering
+Running pair-wise MASH clustering
+10 primary clusters made
+Running secondary clustering
+Running 28 ANImf comparisons- should take ~ 2.3 min
+Step 4. Return output
+***************************************************
+    ..:: dRep dereplicate Step 3. Choose ::..
+***************************************************
+    
+Loading work directory
+***************************************************
+    ..:: dRep dereplicate Step 4. Evaluate ::..
+***************************************************
+    
+will provide warnings about clusters
+0 warnings generated: saved to /media/user/T7/AnniZ/assembly/derep/cc/log/warnings.txt
+will produce Widb (winner information db)
+Winner database saved to /media/user/T7/AnniZ/assembly/derep/ccdata_tables/Widb.csv
+***************************************************
+    ..:: dRep dereplicate Step 5. Analyze ::..
+***************************************************
+    
+making plots 1, 2, 3, 4, 5, 6
+Plotting primary dendrogram
+Plotting secondary dendrograms
+Plotting MDS plot
+Plotting scatterplots
+Plotting bin scorring plot
+Plotting winning genomes plot...
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+    ..:: dRep dereplicate finished ::..
+
+Dereplicated genomes................. /media/user/T7/AnniZ/assembly/derep/cc/dereplicated_genomes/
+Dereplicated genomes information..... /media/user/T7/AnniZ/assembly/derep/cc/data_tables/Widb.csv
+Figures.............................. /media/user/T7/AnniZ/assembly/derep/cc/figures/
+Warnings............................. /media/user/T7/AnniZ/assembly/derep/cc/log/warnings.txt
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+    
+subscripts/cd.sh: line 3: activate: No such file or directory
+***************************************************
+    ..:: dRep dereplicate Step 1. Filter ::..
+***************************************************
+    
+Will filter the genome list
+Calculating genome info of genomes
+100.00% of genomes passed length filtering
+Running prodigal
+Running checkM
+38.24% of genomes passed checkM filtering
+***************************************************
+    ..:: dRep dereplicate Step 2. Cluster ::..
+***************************************************
+    
+Running primary clustering
+Running pair-wise MASH clustering
+10 primary clusters made
+Running secondary clustering
+Running 19 ANImf comparisons- should take ~ 1.6 min
+Step 4. Return output
+***************************************************
+    ..:: dRep dereplicate Step 3. Choose ::..
+***************************************************
+    
+Loading work directory
+***************************************************
+    ..:: dRep dereplicate Step 4. Evaluate ::..
+***************************************************
+    
+will provide warnings about clusters
+0 warnings generated: saved to /media/user/T7/AnniZ/assembly/derep/cd/log/warnings.txt
+will produce Widb (winner information db)
+Winner database saved to /media/user/T7/AnniZ/assembly/derep/cddata_tables/Widb.csv
+***************************************************
+    ..:: dRep dereplicate Step 5. Analyze ::..
+***************************************************
+    
+making plots 1, 2, 3, 4, 5, 6
+Plotting primary dendrogram
+Plotting secondary dendrograms
+Plotting MDS plot
+Plotting scatterplots
+Plotting bin scorring plot
+Plotting winning genomes plot...
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+    ..:: dRep dereplicate finished ::..
+
+Dereplicated genomes................. /media/user/T7/AnniZ/assembly/derep/cd/dereplicated_genomes/
+Dereplicated genomes information..... /media/user/T7/AnniZ/assembly/derep/cd/data_tables/Widb.csv
+Figures.............................. /media/user/T7/AnniZ/assembly/derep/cd/figures/
+Warnings............................. /media/user/T7/AnniZ/assembly/derep/cd/log/warnings.txt
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+    
+subscripts/ce.sh: line 3: activate: No such file or directory
+***************************************************
+    ..:: dRep dereplicate Step 1. Filter ::..
+***************************************************
+    
+Will filter the genome list
+Calculating genome info of genomes
+100.00% of genomes passed length filtering
+Running prodigal
+Running checkM
+39.29% of genomes passed checkM filtering
+***************************************************
+    ..:: dRep dereplicate Step 2. Cluster ::..
+***************************************************
+    
+Running primary clustering
+Running pair-wise MASH clustering
+17 primary clusters made
+Running secondary clustering
+Running 32 ANImf comparisons- should take ~ 2.7 min
+Step 4. Return output
+***************************************************
+    ..:: dRep dereplicate Step 3. Choose ::..
+***************************************************
+    
+Loading work directory
+***************************************************
+    ..:: dRep dereplicate Step 4. Evaluate ::..
+***************************************************
+    
+will provide warnings about clusters
+1 warnings generated: saved to /media/user/T7/AnniZ/assembly/derep/ce/log/warnings.txt
+will produce Widb (winner information db)
+Winner database saved to /media/user/T7/AnniZ/assembly/derep/cedata_tables/Widb.csv
+***************************************************
+    ..:: dRep dereplicate Step 5. Analyze ::..
+***************************************************
+    
+making plots 1, 2, 3, 4, 5, 6
+Plotting primary dendrogram
+Plotting secondary dendrograms
+Plotting MDS plot
+Plotting scatterplots
+Plotting bin scorring plot
+Plotting winning genomes plot...
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+    ..:: dRep dereplicate finished ::..
+
+Dereplicated genomes................. /media/user/T7/AnniZ/assembly/derep/ce/dereplicated_genomes/
+Dereplicated genomes information..... /media/user/T7/AnniZ/assembly/derep/ce/data_tables/Widb.csv
+Figures.............................. /media/user/T7/AnniZ/assembly/derep/ce/figures/
+Warnings............................. /media/user/T7/AnniZ/assembly/derep/ce/log/warnings.txt
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+    
+subscripts/cf.sh: line 3: activate: No such file or directory
+***************************************************
+    ..:: dRep dereplicate Step 1. Filter ::..
+***************************************************
+    
+Will filter the genome list
+Calculating genome info of genomes
+100.00% of genomes passed length filtering
+Running prodigal
+Running checkM
+34.69% of genomes passed checkM filtering
+***************************************************
+    ..:: dRep dereplicate Step 2. Cluster ::..
+***************************************************
+    
+Running primary clustering
+Running pair-wise MASH clustering
+14 primary clusters made
+Running secondary clustering
+Running 23 ANImf comparisons- should take ~ 1.9 min
+Step 4. Return output
+***************************************************
+    ..:: dRep dereplicate Step 3. Choose ::..
+***************************************************
+    
+Loading work directory
+***************************************************
+    ..:: dRep dereplicate Step 4. Evaluate ::..
+***************************************************
+    
+will provide warnings about clusters
+0 warnings generated: saved to /media/user/T7/AnniZ/assembly/derep/cf/log/warnings.txt
+will produce Widb (winner information db)
+Winner database saved to /media/user/T7/AnniZ/assembly/derep/cfdata_tables/Widb.csv
+***************************************************
+    ..:: dRep dereplicate Step 5. Analyze ::..
+***************************************************
+    
+making plots 1, 2, 3, 4, 5, 6
+Plotting primary dendrogram
+Plotting secondary dendrograms
+Plotting MDS plot
+Plotting scatterplots
+Plotting bin scorring plot
+Plotting winning genomes plot...
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+    ..:: dRep dereplicate finished ::..
+
+Dereplicated genomes................. /media/user/T7/AnniZ/assembly/derep/cf/dereplicated_genomes/
+Dereplicated genomes information..... /media/user/T7/AnniZ/assembly/derep/cf/data_tables/Widb.csv
+Figures.............................. /media/user/T7/AnniZ/assembly/derep/cf/figures/
+Warnings............................. /media/user/T7/AnniZ/assembly/derep/cf/log/warnings.txt
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+    
+subscripts/cg.sh: line 3: activate: No such file or directory
+***************************************************
+    ..:: dRep dereplicate Step 1. Filter ::..
+***************************************************
+    
+Will filter the genome list
+Calculating genome info of genomes
+100.00% of genomes passed length filtering
+Running prodigal
+Running checkM
+31.91% of genomes passed checkM filtering
+***************************************************
+    ..:: dRep dereplicate Step 2. Cluster ::..
+***************************************************
+    
+Running primary clustering
+Running pair-wise MASH clustering
+12 primary clusters made
+Running secondary clustering
+Running 21 ANImf comparisons- should take ~ 1.8 min
+Step 4. Return output
+***************************************************
+    ..:: dRep dereplicate Step 3. Choose ::..
+***************************************************
+    
+Loading work directory
+***************************************************
+    ..:: dRep dereplicate Step 4. Evaluate ::..
+***************************************************
+    
+will provide warnings about clusters
+0 warnings generated: saved to /media/user/T7/AnniZ/assembly/derep/cg/log/warnings.txt
+will produce Widb (winner information db)
+Winner database saved to /media/user/T7/AnniZ/assembly/derep/cgdata_tables/Widb.csv
+***************************************************
+    ..:: dRep dereplicate Step 5. Analyze ::..
+***************************************************
+    
+making plots 1, 2, 3, 4, 5, 6
+Plotting primary dendrogram
+Plotting secondary dendrograms
+Plotting MDS plot
+Plotting scatterplots
+Plotting bin scorring plot
+Plotting winning genomes plot...
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+    ..:: dRep dereplicate finished ::..
+
+Dereplicated genomes................. /media/user/T7/AnniZ/assembly/derep/cg/dereplicated_genomes/
+Dereplicated genomes information..... /media/user/T7/AnniZ/assembly/derep/cg/data_tables/Widb.csv
+Figures.............................. /media/user/T7/AnniZ/assembly/derep/cg/figures/
+Warnings............................. /media/user/T7/AnniZ/assembly/derep/cg/log/warnings.txt
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+    
+subscripts/ch.sh: line 3: activate: No such file or directory
+***************************************************
+    ..:: dRep dereplicate Step 1. Filter ::..
+***************************************************
+    
+Will filter the genome list
+Calculating genome info of genomes
+100.00% of genomes passed length filtering
+Running prodigal
+Running checkM
+17.24% of genomes passed checkM filtering
+***************************************************
+    ..:: dRep dereplicate Step 2. Cluster ::..
+***************************************************
+    
+Running primary clustering
+Running pair-wise MASH clustering
+4 primary clusters made
+Running secondary clustering
+Running 7 ANImf comparisons- should take ~ 0.6 min
+Step 4. Return output
+***************************************************
+    ..:: dRep dereplicate Step 3. Choose ::..
+***************************************************
+    
+Loading work directory
+***************************************************
+    ..:: dRep dereplicate Step 4. Evaluate ::..
+***************************************************
+    
+will provide warnings about clusters
+0 warnings generated: saved to /media/user/T7/AnniZ/assembly/derep/ch/log/warnings.txt
+will produce Widb (winner information db)
+Winner database saved to /media/user/T7/AnniZ/assembly/derep/chdata_tables/Widb.csv
+***************************************************
+    ..:: dRep dereplicate Step 5. Analyze ::..
+***************************************************
+    
+making plots 1, 2, 3, 4, 5, 6
+Plotting primary dendrogram
+Plotting secondary dendrograms
+Plotting MDS plot
+Plotting scatterplots
+Plotting bin scorring plot
+Plotting winning genomes plot...
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+    ..:: dRep dereplicate finished ::..
+
+Dereplicated genomes................. /media/user/T7/AnniZ/assembly/derep/ch/dereplicated_genomes/
+Dereplicated genomes information..... /media/user/T7/AnniZ/assembly/derep/ch/data_tables/Widb.csv
+Figures.............................. /media/user/T7/AnniZ/assembly/derep/ch/figures/
+Warnings............................. /media/user/T7/AnniZ/assembly/derep/ch/log/warnings.txt
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+    
+subscripts/ci.sh: line 3: activate: No such file or directory
+***************************************************
+    ..:: dRep dereplicate Step 1. Filter ::..
+***************************************************
+    
+Will filter the genome list
+Calculating genome info of genomes
+100.00% of genomes passed length filtering
+Running prodigal
+Running checkM
+33.33% of genomes passed checkM filtering
+***************************************************
+    ..:: dRep dereplicate Step 2. Cluster ::..
+***************************************************
+    
+Running primary clustering
+Running pair-wise MASH clustering
+7 primary clusters made
+Running secondary clustering
+Running 10 ANImf comparisons- should take ~ 0.8 min
+Step 4. Return output
+***************************************************
+    ..:: dRep dereplicate Step 3. Choose ::..
+***************************************************
+    
+Loading work directory
+***************************************************
+    ..:: dRep dereplicate Step 4. Evaluate ::..
+***************************************************
+    
+will provide warnings about clusters
+0 warnings generated: saved to /media/user/T7/AnniZ/assembly/derep/ci/log/warnings.txt
+will produce Widb (winner information db)
+Winner database saved to /media/user/T7/AnniZ/assembly/derep/cidata_tables/Widb.csv
+***************************************************
+    ..:: dRep dereplicate Step 5. Analyze ::..
+***************************************************
+    
+making plots 1, 2, 3, 4, 5, 6
+Plotting primary dendrogram
+Plotting secondary dendrograms
+Plotting MDS plot
+Plotting scatterplots
+Plotting bin scorring plot
+Plotting winning genomes plot...
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+    ..:: dRep dereplicate finished ::..
+
+Dereplicated genomes................. /media/user/T7/AnniZ/assembly/derep/ci/dereplicated_genomes/
+Dereplicated genomes information..... /media/user/T7/AnniZ/assembly/derep/ci/data_tables/Widb.csv
+Figures.............................. /media/user/T7/AnniZ/assembly/derep/ci/figures/
+Warnings............................. /media/user/T7/AnniZ/assembly/derep/ci/log/warnings.txt
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+    
+subscripts/cj.sh: line 3: activate: No such file or directory
+***************************************************
+    ..:: dRep dereplicate Step 1. Filter ::..
+***************************************************
+    
+Will filter the genome list
+Calculating genome info of genomes
+100.00% of genomes passed length filtering
+Running prodigal
+Running checkM
+30.77% of genomes passed checkM filtering
+***************************************************
+    ..:: dRep dereplicate Step 2. Cluster ::..
+***************************************************
+    
+Running primary clustering
+Running pair-wise MASH clustering
+9 primary clusters made
+Running secondary clustering
+Running 18 ANImf comparisons- should take ~ 1.5 min
+Step 4. Return output
+***************************************************
+    ..:: dRep dereplicate Step 3. Choose ::..
+***************************************************
+    
+Loading work directory
+***************************************************
+    ..:: dRep dereplicate Step 4. Evaluate ::..
+***************************************************
+    
+will provide warnings about clusters
+0 warnings generated: saved to /media/user/T7/AnniZ/assembly/derep/cj/log/warnings.txt
+will produce Widb (winner information db)
+Winner database saved to /media/user/T7/AnniZ/assembly/derep/cjdata_tables/Widb.csv
+***************************************************
+    ..:: dRep dereplicate Step 5. Analyze ::..
+***************************************************
+    
+making plots 1, 2, 3, 4, 5, 6
+Plotting primary dendrogram
+Plotting secondary dendrograms
+Plotting MDS plot
+Plotting scatterplots
+Plotting bin scorring plot
+Plotting winning genomes plot...
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+    ..:: dRep dereplicate finished ::..
+
+Dereplicated genomes................. /media/user/T7/AnniZ/assembly/derep/cj/dereplicated_genomes/
+Dereplicated genomes information..... /media/user/T7/AnniZ/assembly/derep/cj/data_tables/Widb.csv
+Figures.............................. /media/user/T7/AnniZ/assembly/derep/cj/figures/
+Warnings............................. /media/user/T7/AnniZ/assembly/derep/cj/log/warnings.txt
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+    
+subscripts/ck.sh: line 3: activate: No such file or directory
+***************************************************
+    ..:: dRep dereplicate Step 1. Filter ::..
+***************************************************
+    
+Will filter the genome list
+Calculating genome info of genomes
+100.00% of genomes passed length filtering
+Running prodigal
+Running checkM
+39.58% of genomes passed checkM filtering
+***************************************************
+    ..:: dRep dereplicate Step 2. Cluster ::..
+***************************************************
+    
+Running primary clustering
+Running pair-wise MASH clustering
+15 primary clusters made
+Running secondary clustering
+Running 27 ANImf comparisons- should take ~ 2.2 min
+Step 4. Return output
+***************************************************
+    ..:: dRep dereplicate Step 3. Choose ::..
+***************************************************
+    
+Loading work directory
+***************************************************
+    ..:: dRep dereplicate Step 4. Evaluate ::..
+***************************************************
+    
+will provide warnings about clusters
+1 warnings generated: saved to /media/user/T7/AnniZ/assembly/derep/ck/log/warnings.txt
+will produce Widb (winner information db)
+Winner database saved to /media/user/T7/AnniZ/assembly/derep/ckdata_tables/Widb.csv
+***************************************************
+    ..:: dRep dereplicate Step 5. Analyze ::..
+***************************************************
+    
+making plots 1, 2, 3, 4, 5, 6
+Plotting primary dendrogram
+Plotting secondary dendrograms
+Plotting MDS plot
+Plotting scatterplots
+Plotting bin scorring plot
+Plotting winning genomes plot...
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+    ..:: dRep dereplicate finished ::..
+
+Dereplicated genomes................. /media/user/T7/AnniZ/assembly/derep/ck/dereplicated_genomes/
+Dereplicated genomes information..... /media/user/T7/AnniZ/assembly/derep/ck/data_tables/Widb.csv
+Figures.............................. /media/user/T7/AnniZ/assembly/derep/ck/figures/
+Warnings............................. /media/user/T7/AnniZ/assembly/derep/ck/log/warnings.txt
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+    
+subscripts/cm.sh: line 3: activate: No such file or directory
+***************************************************
+    ..:: dRep dereplicate Step 1. Filter ::..
+***************************************************
+    
+Will filter the genome list
+Calculating genome info of genomes
+100.00% of genomes passed length filtering
+Running prodigal
+Running checkM
+38.89% of genomes passed checkM filtering
+***************************************************
+    ..:: dRep dereplicate Step 2. Cluster ::..
+***************************************************
+    
+Running primary clustering
+Running pair-wise MASH clustering
+4 primary clusters made
+Running secondary clustering
+Running 13 ANImf comparisons- should take ~ 1.1 min
+Step 4. Return output
+***************************************************
+    ..:: dRep dereplicate Step 3. Choose ::..
+***************************************************
+    
+Loading work directory
+***************************************************
+    ..:: dRep dereplicate Step 4. Evaluate ::..
+***************************************************
+    
+will provide warnings about clusters
+0 warnings generated: saved to /media/user/T7/AnniZ/assembly/derep/cm/log/warnings.txt
+will produce Widb (winner information db)
+Winner database saved to /media/user/T7/AnniZ/assembly/derep/cmdata_tables/Widb.csv
+***************************************************
+    ..:: dRep dereplicate Step 5. Analyze ::..
+***************************************************
+    
+making plots 1, 2, 3, 4, 5, 6
+Plotting primary dendrogram
+Plotting secondary dendrograms
+Plotting MDS plot
+Plotting scatterplots
+Plotting bin scorring plot
+Plotting winning genomes plot...
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+    ..:: dRep dereplicate finished ::..
+
+Dereplicated genomes................. /media/user/T7/AnniZ/assembly/derep/cm/dereplicated_genomes/
+Dereplicated genomes information..... /media/user/T7/AnniZ/assembly/derep/cm/data_tables/Widb.csv
+Figures.............................. /media/user/T7/AnniZ/assembly/derep/cm/figures/
+Warnings............................. /media/user/T7/AnniZ/assembly/derep/cm/log/warnings.txt
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+    
+subscripts/cn.sh: line 3: activate: No such file or directory
+***************************************************
+    ..:: dRep dereplicate Step 1. Filter ::..
+***************************************************
+    
+Will filter the genome list
+Calculating genome info of genomes
+100.00% of genomes passed length filtering
+Running prodigal
+Running checkM
+15.79% of genomes passed checkM filtering
+***************************************************
+    ..:: dRep dereplicate Step 2. Cluster ::..
+***************************************************
+    
+Running primary clustering
+Running pair-wise MASH clustering
+2 primary clusters made
+Running secondary clustering
+Running 5 ANImf comparisons- should take ~ 0.4 min
+Step 4. Return output
+***************************************************
+    ..:: dRep dereplicate Step 3. Choose ::..
+***************************************************
+    
+Loading work directory
+***************************************************
+    ..:: dRep dereplicate Step 4. Evaluate ::..
+***************************************************
+    
+will provide warnings about clusters
+0 warnings generated: saved to /media/user/T7/AnniZ/assembly/derep/cn/log/warnings.txt
+will produce Widb (winner information db)
+Winner database saved to /media/user/T7/AnniZ/assembly/derep/cndata_tables/Widb.csv
+***************************************************
+    ..:: dRep dereplicate Step 5. Analyze ::..
+***************************************************
+    
+making plots 1, 2, 3, 4, 5, 6
+Plotting primary dendrogram
+Plotting secondary dendrograms
+Plotting MDS plot
+Plotting scatterplots
+Plotting bin scorring plot
+Plotting winning genomes plot...
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+    ..:: dRep dereplicate finished ::..
+
+Dereplicated genomes................. /media/user/T7/AnniZ/assembly/derep/cn/dereplicated_genomes/
+Dereplicated genomes information..... /media/user/T7/AnniZ/assembly/derep/cn/data_tables/Widb.csv
+Figures.............................. /media/user/T7/AnniZ/assembly/derep/cn/figures/
+Warnings............................. /media/user/T7/AnniZ/assembly/derep/cn/log/warnings.txt
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+    
+subscripts/cp.sh: line 3: activate: No such file or directory
+***************************************************
+    ..:: dRep dereplicate Step 1. Filter ::..
+***************************************************
+    
+Will filter the genome list
+Calculating genome info of genomes
+100.00% of genomes passed length filtering
+Running prodigal
+Running checkM
+23.73% of genomes passed checkM filtering
+***************************************************
+    ..:: dRep dereplicate Step 2. Cluster ::..
+***************************************************
+    
+Running primary clustering
+Running pair-wise MASH clustering
+12 primary clusters made
+Running secondary clustering
+Running 18 ANImf comparisons- should take ~ 1.5 min
+Step 4. Return output
+***************************************************
+    ..:: dRep dereplicate Step 3. Choose ::..
+***************************************************
+    
+Loading work directory
+***************************************************
+    ..:: dRep dereplicate Step 4. Evaluate ::..
+***************************************************
+    
+will provide warnings about clusters
+0 warnings generated: saved to /media/user/T7/AnniZ/assembly/derep/cp/log/warnings.txt
+will produce Widb (winner information db)
+Winner database saved to /media/user/T7/AnniZ/assembly/derep/cpdata_tables/Widb.csv
+***************************************************
+    ..:: dRep dereplicate Step 5. Analyze ::..
+***************************************************
+    
+making plots 1, 2, 3, 4, 5, 6
+Plotting primary dendrogram
+Plotting secondary dendrograms
+Plotting MDS plot
+Plotting scatterplots
+Plotting bin scorring plot
+Plotting winning genomes plot...
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+    ..:: dRep dereplicate finished ::..
+
+Dereplicated genomes................. /media/user/T7/AnniZ/assembly/derep/cp/dereplicated_genomes/
+Dereplicated genomes information..... /media/user/T7/AnniZ/assembly/derep/cp/data_tables/Widb.csv
+Figures.............................. /media/user/T7/AnniZ/assembly/derep/cp/figures/
+Warnings............................. /media/user/T7/AnniZ/assembly/derep/cp/log/warnings.txt
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+    
+subscripts/cq.sh: line 3: activate: No such file or directory
+***************************************************
+    ..:: dRep dereplicate Step 1. Filter ::..
+***************************************************
+    
+Will filter the genome list
+Calculating genome info of genomes
+100.00% of genomes passed length filtering
+Running prodigal
+Running checkM
+30.77% of genomes passed checkM filtering
+***************************************************
+    ..:: dRep dereplicate Step 2. Cluster ::..
+***************************************************
+    
+Running primary clustering
+Running pair-wise MASH clustering
+12 primary clusters made
+Running secondary clustering
+Running 12 ANImf comparisons- should take ~ 1.0 min
+Step 4. Return output
+***************************************************
+    ..:: dRep dereplicate Step 3. Choose ::..
+***************************************************
+    
+Loading work directory
+***************************************************
+    ..:: dRep dereplicate Step 4. Evaluate ::..
+***************************************************
+    
+will provide warnings about clusters
+0 warnings generated: saved to /media/user/T7/AnniZ/assembly/derep/cq/log/warnings.txt
+will produce Widb (winner information db)
+Winner database saved to /media/user/T7/AnniZ/assembly/derep/cqdata_tables/Widb.csv
+***************************************************
+    ..:: dRep dereplicate Step 5. Analyze ::..
+***************************************************
+    
+making plots 1, 2, 3, 4, 5, 6
+Plotting primary dendrogram
+Plotting secondary dendrograms
+Plotting MDS plot
+Plotting scatterplots
+Plotting bin scorring plot
+Plotting winning genomes plot...
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+    ..:: dRep dereplicate finished ::..
+
+Dereplicated genomes................. /media/user/T7/AnniZ/assembly/derep/cq/dereplicated_genomes/
+Dereplicated genomes information..... /media/user/T7/AnniZ/assembly/derep/cq/data_tables/Widb.csv
+Figures.............................. /media/user/T7/AnniZ/assembly/derep/cq/figures/
+Warnings............................. /media/user/T7/AnniZ/assembly/derep/cq/log/warnings.txt
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+    
+subscripts/cr.sh: line 3: activate: No such file or directory
+***************************************************
+    ..:: dRep dereplicate Step 1. Filter ::..
+***************************************************
+    
+Will filter the genome list
+Calculating genome info of genomes
+100.00% of genomes passed length filtering
+Running prodigal
+Running checkM
+21.88% of genomes passed checkM filtering
+***************************************************
+    ..:: dRep dereplicate Step 2. Cluster ::..
+***************************************************
+    
+Running primary clustering
+Running pair-wise MASH clustering
+6 primary clusters made
+Running secondary clustering
+Running 9 ANImf comparisons- should take ~ 0.8 min
+Step 4. Return output
+***************************************************
+    ..:: dRep dereplicate Step 3. Choose ::..
+***************************************************
+    
+Loading work directory
+***************************************************
+    ..:: dRep dereplicate Step 4. Evaluate ::..
+***************************************************
+    
+will provide warnings about clusters
+0 warnings generated: saved to /media/user/T7/AnniZ/assembly/derep/cr/log/warnings.txt
+will produce Widb (winner information db)
+Winner database saved to /media/user/T7/AnniZ/assembly/derep/crdata_tables/Widb.csv
+***************************************************
+    ..:: dRep dereplicate Step 5. Analyze ::..
+***************************************************
+    
+making plots 1, 2, 3, 4, 5, 6
+Plotting primary dendrogram
+Plotting secondary dendrograms
+Plotting MDS plot
+Plotting scatterplots
+Plotting bin scorring plot
+Plotting winning genomes plot...
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+    ..:: dRep dereplicate finished ::..
+
+Dereplicated genomes................. /media/user/T7/AnniZ/assembly/derep/cr/dereplicated_genomes/
+Dereplicated genomes information..... /media/user/T7/AnniZ/assembly/derep/cr/data_tables/Widb.csv
+Figures.............................. /media/user/T7/AnniZ/assembly/derep/cr/figures/
+Warnings............................. /media/user/T7/AnniZ/assembly/derep/cr/log/warnings.txt
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+    
+subscripts/cs.sh: line 3: activate: No such file or directory
+***************************************************
+    ..:: dRep dereplicate Step 1. Filter ::..
+***************************************************
+    
+Will filter the genome list
+Calculating genome info of genomes
+100.00% of genomes passed length filtering
+Running prodigal
+Running checkM
+17.39% of genomes passed checkM filtering
+***************************************************
+    ..:: dRep dereplicate Step 2. Cluster ::..
+***************************************************
+    
+Running primary clustering
+Running pair-wise MASH clustering
+3 primary clusters made
+Running secondary clustering
+Running 6 ANImf comparisons- should take ~ 0.5 min
+Step 4. Return output
+***************************************************
+    ..:: dRep dereplicate Step 3. Choose ::..
+***************************************************
+    
+Loading work directory
+***************************************************
+    ..:: dRep dereplicate Step 4. Evaluate ::..
+***************************************************
+    
+will provide warnings about clusters
+1 warnings generated: saved to /media/user/T7/AnniZ/assembly/derep/cs/log/warnings.txt
+will produce Widb (winner information db)
+Winner database saved to /media/user/T7/AnniZ/assembly/derep/csdata_tables/Widb.csv
+***************************************************
+    ..:: dRep dereplicate Step 5. Analyze ::..
+***************************************************
+    
+making plots 1, 2, 3, 4, 5, 6
+Plotting primary dendrogram
+Plotting secondary dendrograms
+Plotting MDS plot
+Plotting scatterplots
+Plotting bin scorring plot
+Plotting winning genomes plot...
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+    ..:: dRep dereplicate finished ::..
+
+Dereplicated genomes................. /media/user/T7/AnniZ/assembly/derep/cs/dereplicated_genomes/
+Dereplicated genomes information..... /media/user/T7/AnniZ/assembly/derep/cs/data_tables/Widb.csv
+Figures.............................. /media/user/T7/AnniZ/assembly/derep/cs/figures/
+Warnings............................. /media/user/T7/AnniZ/assembly/derep/cs/log/warnings.txt
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+    
+subscripts/ct.sh: line 3: activate: No such file or directory
+***************************************************
+    ..:: dRep dereplicate Step 1. Filter ::..
+***************************************************
+    
+Will filter the genome list
+Calculating genome info of genomes
+100.00% of genomes passed length filtering
+Running prodigal
+Running checkM
+31.25% of genomes passed checkM filtering
+***************************************************
+    ..:: dRep dereplicate Step 2. Cluster ::..
+***************************************************
+    
+Running primary clustering
+Running pair-wise MASH clustering
+3 primary clusters made
+Running secondary clustering
+Running 9 ANImf comparisons- should take ~ 0.8 min
+Step 4. Return output
+***************************************************
+    ..:: dRep dereplicate Step 3. Choose ::..
+***************************************************
+    
+Loading work directory
+***************************************************
+    ..:: dRep dereplicate Step 4. Evaluate ::..
+***************************************************
+    
+will provide warnings about clusters
+0 warnings generated: saved to /media/user/T7/AnniZ/assembly/derep/ct/log/warnings.txt
+will produce Widb (winner information db)
+Winner database saved to /media/user/T7/AnniZ/assembly/derep/ctdata_tables/Widb.csv
+***************************************************
+    ..:: dRep dereplicate Step 5. Analyze ::..
+***************************************************
+    
+making plots 1, 2, 3, 4, 5, 6
+Plotting primary dendrogram
+Plotting secondary dendrograms
+Plotting MDS plot
+Plotting scatterplots
+Plotting bin scorring plot
+Plotting winning genomes plot...
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+    ..:: dRep dereplicate finished ::..
+
+Dereplicated genomes................. /media/user/T7/AnniZ/assembly/derep/ct/dereplicated_genomes/
+Dereplicated genomes information..... /media/user/T7/AnniZ/assembly/derep/ct/data_tables/Widb.csv
+Figures.............................. /media/user/T7/AnniZ/assembly/derep/ct/figures/
+Warnings............................. /media/user/T7/AnniZ/assembly/derep/ct/log/warnings.txt
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+    
+subscripts/cu.sh: line 3: activate: No such file or directory
+***************************************************
+    ..:: dRep dereplicate Step 1. Filter ::..
+***************************************************
+    
+Will filter the genome list
+Calculating genome info of genomes
+100.00% of genomes passed length filtering
+Running prodigal
+Running checkM
+35.42% of genomes passed checkM filtering
+***************************************************
+    ..:: dRep dereplicate Step 2. Cluster ::..
+***************************************************
+    
+Running primary clustering
+Running pair-wise MASH clustering
+13 primary clusters made
+Running secondary clustering
+Running 25 ANImf comparisons- should take ~ 2.1 min
+Step 4. Return output
+***************************************************
+    ..:: dRep dereplicate Step 3. Choose ::..
+***************************************************
+    
+Loading work directory
+***************************************************
+    ..:: dRep dereplicate Step 4. Evaluate ::..
+***************************************************
+    
+will provide warnings about clusters
+0 warnings generated: saved to /media/user/T7/AnniZ/assembly/derep/cu/log/warnings.txt
+will produce Widb (winner information db)
+Winner database saved to /media/user/T7/AnniZ/assembly/derep/cudata_tables/Widb.csv
+***************************************************
+    ..:: dRep dereplicate Step 5. Analyze ::..
+***************************************************
+    
+making plots 1, 2, 3, 4, 5, 6
+Plotting primary dendrogram
+Plotting secondary dendrograms
+Plotting MDS plot
+Plotting scatterplots
+Plotting bin scorring plot
+Plotting winning genomes plot...
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+    ..:: dRep dereplicate finished ::..
+
+Dereplicated genomes................. /media/user/T7/AnniZ/assembly/derep/cu/dereplicated_genomes/
+Dereplicated genomes information..... /media/user/T7/AnniZ/assembly/derep/cu/data_tables/Widb.csv
+Figures.............................. /media/user/T7/AnniZ/assembly/derep/cu/figures/
+Warnings............................. /media/user/T7/AnniZ/assembly/derep/cu/log/warnings.txt
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+    
+subscripts/cv.sh: line 3: activate: No such file or directory
+***************************************************
+    ..:: dRep dereplicate Step 1. Filter ::..
+***************************************************
+    
+Will filter the genome list
+Calculating genome info of genomes
+100.00% of genomes passed length filtering
+Running prodigal
+Running checkM
+34.48% of genomes passed checkM filtering
+***************************************************
+    ..:: dRep dereplicate Step 2. Cluster ::..
+***************************************************
+    
+Running primary clustering
+Running pair-wise MASH clustering
+7 primary clusters made
+Running secondary clustering
+Running 16 ANImf comparisons- should take ~ 1.3 min
+Step 4. Return output
+***************************************************
+    ..:: dRep dereplicate Step 3. Choose ::..
+***************************************************
+    
+Loading work directory
+***************************************************
+    ..:: dRep dereplicate Step 4. Evaluate ::..
+***************************************************
+    
+will provide warnings about clusters
+0 warnings generated: saved to /media/user/T7/AnniZ/assembly/derep/cv/log/warnings.txt
+will produce Widb (winner information db)
+Winner database saved to /media/user/T7/AnniZ/assembly/derep/cvdata_tables/Widb.csv
+***************************************************
+    ..:: dRep dereplicate Step 5. Analyze ::..
+***************************************************
+    
+making plots 1, 2, 3, 4, 5, 6
+Plotting primary dendrogram
+Plotting secondary dendrograms
+Plotting MDS plot
+Plotting scatterplots
+Plotting bin scorring plot
+Plotting winning genomes plot...
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+    ..:: dRep dereplicate finished ::..
+
+Dereplicated genomes................. /media/user/T7/AnniZ/assembly/derep/cv/dereplicated_genomes/
+Dereplicated genomes information..... /media/user/T7/AnniZ/assembly/derep/cv/data_tables/Widb.csv
+Figures.............................. /media/user/T7/AnniZ/assembly/derep/cv/figures/
+Warnings............................. /media/user/T7/AnniZ/assembly/derep/cv/log/warnings.txt
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+    
+subscripts/cw.sh: line 3: activate: No such file or directory
+***************************************************
+    ..:: dRep dereplicate Step 1. Filter ::..
+***************************************************
+    
+Will filter the genome list
+Calculating genome info of genomes
+100.00% of genomes passed length filtering
+Running prodigal
+Running checkM
+24.56% of genomes passed checkM filtering
+***************************************************
+    ..:: dRep dereplicate Step 2. Cluster ::..
+***************************************************
+    
+Running primary clustering
+Running pair-wise MASH clustering
+8 primary clusters made
+Running secondary clustering
+Running 28 ANImf comparisons- should take ~ 2.3 min
+Step 4. Return output
+***************************************************
+    ..:: dRep dereplicate Step 3. Choose ::..
+***************************************************
+    
+Loading work directory
+***************************************************
+    ..:: dRep dereplicate Step 4. Evaluate ::..
+***************************************************
+    
+will provide warnings about clusters
+0 warnings generated: saved to /media/user/T7/AnniZ/assembly/derep/cw/log/warnings.txt
+will produce Widb (winner information db)
+Winner database saved to /media/user/T7/AnniZ/assembly/derep/cwdata_tables/Widb.csv
+***************************************************
+    ..:: dRep dereplicate Step 5. Analyze ::..
+***************************************************
+    
+making plots 1, 2, 3, 4, 5, 6
+Plotting primary dendrogram
+Plotting secondary dendrograms
+Plotting MDS plot
+Plotting scatterplots
+Plotting bin scorring plot
+Plotting winning genomes plot...
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+    ..:: dRep dereplicate finished ::..
+
+Dereplicated genomes................. /media/user/T7/AnniZ/assembly/derep/cw/dereplicated_genomes/
+Dereplicated genomes information..... /media/user/T7/AnniZ/assembly/derep/cw/data_tables/Widb.csv
+Figures.............................. /media/user/T7/AnniZ/assembly/derep/cw/figures/
+Warnings............................. /media/user/T7/AnniZ/assembly/derep/cw/log/warnings.txt
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+    
+subscripts/cx.sh: line 3: activate: No such file or directory
+***************************************************
+    ..:: dRep dereplicate Step 1. Filter ::..
+***************************************************
+    
+Will filter the genome list
+Calculating genome info of genomes
+100.00% of genomes passed length filtering
+Running prodigal
+Running checkM
+34.78% of genomes passed checkM filtering
+***************************************************
+    ..:: dRep dereplicate Step 2. Cluster ::..
+***************************************************
+    
+Running primary clustering
+Running pair-wise MASH clustering
+6 primary clusters made
+Running secondary clustering
+Running 12 ANImf comparisons- should take ~ 1.0 min
+Step 4. Return output
+***************************************************
+    ..:: dRep dereplicate Step 3. Choose ::..
+***************************************************
+    
+Loading work directory
+***************************************************
+    ..:: dRep dereplicate Step 4. Evaluate ::..
+***************************************************
+    
+will provide warnings about clusters
+0 warnings generated: saved to /media/user/T7/AnniZ/assembly/derep/cx/log/warnings.txt
+will produce Widb (winner information db)
+Winner database saved to /media/user/T7/AnniZ/assembly/derep/cxdata_tables/Widb.csv
+***************************************************
+    ..:: dRep dereplicate Step 5. Analyze ::..
+***************************************************
+    
+making plots 1, 2, 3, 4, 5, 6
+Plotting primary dendrogram
+Plotting secondary dendrograms
+Plotting MDS plot
+Plotting scatterplots
+Plotting bin scorring plot
+Plotting winning genomes plot...
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+    ..:: dRep dereplicate finished ::..
+
+Dereplicated genomes................. /media/user/T7/AnniZ/assembly/derep/cx/dereplicated_genomes/
+Dereplicated genomes information..... /media/user/T7/AnniZ/assembly/derep/cx/data_tables/Widb.csv
+Figures.............................. /media/user/T7/AnniZ/assembly/derep/cx/figures/
+Warnings............................. /media/user/T7/AnniZ/assembly/derep/cx/log/warnings.txt
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+    
+subscripts/cy.sh: line 3: activate: No such file or directory
+***************************************************
+    ..:: dRep dereplicate Step 1. Filter ::..
+***************************************************
+    
+Will filter the genome list
+Calculating genome info of genomes
+100.00% of genomes passed length filtering
+Running prodigal
+Running checkM
+21.28% of genomes passed checkM filtering
+***************************************************
+    ..:: dRep dereplicate Step 2. Cluster ::..
+***************************************************
+    
+Running primary clustering
+Running pair-wise MASH clustering
+6 primary clusters made
+Running secondary clustering
+Running 20 ANImf comparisons- should take ~ 1.7 min
+Step 4. Return output
+***************************************************
+    ..:: dRep dereplicate Step 3. Choose ::..
+***************************************************
+    
+Loading work directory
+***************************************************
+    ..:: dRep dereplicate Step 4. Evaluate ::..
+***************************************************
+    
+will provide warnings about clusters
+0 warnings generated: saved to /media/user/T7/AnniZ/assembly/derep/cy/log/warnings.txt
+will produce Widb (winner information db)
+Winner database saved to /media/user/T7/AnniZ/assembly/derep/cydata_tables/Widb.csv
+***************************************************
+    ..:: dRep dereplicate Step 5. Analyze ::..
+***************************************************
+    
+making plots 1, 2, 3, 4, 5, 6
+Plotting primary dendrogram
+Plotting secondary dendrograms
+Plotting MDS plot
+Plotting scatterplots
+Plotting bin scorring plot
+Plotting winning genomes plot...
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+    ..:: dRep dereplicate finished ::..
+
+Dereplicated genomes................. /media/user/T7/AnniZ/assembly/derep/cy/dereplicated_genomes/
+Dereplicated genomes information..... /media/user/T7/AnniZ/assembly/derep/cy/data_tables/Widb.csv
+Figures.............................. /media/user/T7/AnniZ/assembly/derep/cy/figures/
+Warnings............................. /media/user/T7/AnniZ/assembly/derep/cy/log/warnings.txt
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+    
+subscripts/cz.sh: line 3: activate: No such file or directory
+***************************************************
+    ..:: dRep dereplicate Step 1. Filter ::..
+***************************************************
+    
+Will filter the genome list
+Calculating genome info of genomes
+100.00% of genomes passed length filtering
+Running prodigal
+Running checkM
+25.00% of genomes passed checkM filtering
+***************************************************
+    ..:: dRep dereplicate Step 2. Cluster ::..
+***************************************************
+    
+Running primary clustering
+Running pair-wise MASH clustering
+4 primary clusters made
+Running secondary clustering
+Running 13 ANImf comparisons- should take ~ 1.1 min
+Step 4. Return output
+***************************************************
+    ..:: dRep dereplicate Step 3. Choose ::..
+***************************************************
+    
+Loading work directory
+***************************************************
+    ..:: dRep dereplicate Step 4. Evaluate ::..
+***************************************************
+    
+will provide warnings about clusters
+0 warnings generated: saved to /media/user/T7/AnniZ/assembly/derep/cz/log/warnings.txt
+will produce Widb (winner information db)
+Winner database saved to /media/user/T7/AnniZ/assembly/derep/czdata_tables/Widb.csv
+***************************************************
+    ..:: dRep dereplicate Step 5. Analyze ::..
+***************************************************
+    
+making plots 1, 2, 3, 4, 5, 6
+Plotting primary dendrogram
+Plotting secondary dendrograms
+Plotting MDS plot
+Plotting scatterplots
+Plotting bin scorring plot
+Plotting winning genomes plot...
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+    ..:: dRep dereplicate finished ::..
+
+Dereplicated genomes................. /media/user/T7/AnniZ/assembly/derep/cz/dereplicated_genomes/
+Dereplicated genomes information..... /media/user/T7/AnniZ/assembly/derep/cz/data_tables/Widb.csv
+Figures.............................. /media/user/T7/AnniZ/assembly/derep/cz/figures/
+Warnings............................. /media/user/T7/AnniZ/assembly/derep/cz/log/warnings.txt
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+    
+subscripts/da.sh: line 3: activate: No such file or directory
+***************************************************
+    ..:: dRep dereplicate Step 1. Filter ::..
+***************************************************
+    
+Will filter the genome list
+Calculating genome info of genomes
+100.00% of genomes passed length filtering
+Running prodigal
+Running checkM
+39.29% of genomes passed checkM filtering
+***************************************************
+    ..:: dRep dereplicate Step 2. Cluster ::..
+***************************************************
+    
+Running primary clustering
+Running pair-wise MASH clustering
+9 primary clusters made
+Running secondary clustering
+Running 15 ANImf comparisons- should take ~ 1.2 min
+Step 4. Return output
+***************************************************
+    ..:: dRep dereplicate Step 3. Choose ::..
+***************************************************
+    
+Loading work directory
+***************************************************
+    ..:: dRep dereplicate Step 4. Evaluate ::..
+***************************************************
+    
+will provide warnings about clusters
+0 warnings generated: saved to /media/user/T7/AnniZ/assembly/derep/da/log/warnings.txt
+will produce Widb (winner information db)
+Winner database saved to /media/user/T7/AnniZ/assembly/derep/dadata_tables/Widb.csv
+***************************************************
+    ..:: dRep dereplicate Step 5. Analyze ::..
+***************************************************
+    
+making plots 1, 2, 3, 4, 5, 6
+Plotting primary dendrogram
+Plotting secondary dendrograms
+Plotting MDS plot
+Plotting scatterplots
+Plotting bin scorring plot
+Plotting winning genomes plot...
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+    ..:: dRep dereplicate finished ::..
+
+Dereplicated genomes................. /media/user/T7/AnniZ/assembly/derep/da/dereplicated_genomes/
+Dereplicated genomes information..... /media/user/T7/AnniZ/assembly/derep/da/data_tables/Widb.csv
+Figures.............................. /media/user/T7/AnniZ/assembly/derep/da/figures/
+Warnings............................. /media/user/T7/AnniZ/assembly/derep/da/log/warnings.txt
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+    
+subscripts/db.sh: line 3: activate: No such file or directory
+***************************************************
+    ..:: dRep dereplicate Step 1. Filter ::..
+***************************************************
+    
+Will filter the genome list
+Calculating genome info of genomes
+100.00% of genomes passed length filtering
+Running prodigal
+Running checkM
+16.67% of genomes passed checkM filtering
+***************************************************
+    ..:: dRep dereplicate Step 2. Cluster ::..
+***************************************************
+    
+Running primary clustering
+Running pair-wise MASH clustering
+4 primary clusters made
+Running secondary clustering
+Running 7 ANImf comparisons- should take ~ 0.6 min
+Step 4. Return output
+***************************************************
+    ..:: dRep dereplicate Step 3. Choose ::..
+***************************************************
+    
+Loading work directory
+***************************************************
+    ..:: dRep dereplicate Step 4. Evaluate ::..
+***************************************************
+    
+will provide warnings about clusters
+0 warnings generated: saved to /media/user/T7/AnniZ/assembly/derep/db/log/warnings.txt
+will produce Widb (winner information db)
+Winner database saved to /media/user/T7/AnniZ/assembly/derep/dbdata_tables/Widb.csv
+***************************************************
+    ..:: dRep dereplicate Step 5. Analyze ::..
+***************************************************
+    
+making plots 1, 2, 3, 4, 5, 6
+Plotting primary dendrogram
+Plotting secondary dendrograms
+Plotting MDS plot
+Plotting scatterplots
+Plotting bin scorring plot
+Plotting winning genomes plot...
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+    ..:: dRep dereplicate finished ::..
+
+Dereplicated genomes................. /media/user/T7/AnniZ/assembly/derep/db/dereplicated_genomes/
+Dereplicated genomes information..... /media/user/T7/AnniZ/assembly/derep/db/data_tables/Widb.csv
+Figures.............................. /media/user/T7/AnniZ/assembly/derep/db/figures/
+Warnings............................. /media/user/T7/AnniZ/assembly/derep/db/log/warnings.txt
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+    
+subscripts/dd.sh: line 3: activate: No such file or directory
+***************************************************
+    ..:: dRep dereplicate Step 1. Filter ::..
+***************************************************
+    
+Will filter the genome list
+Calculating genome info of genomes
+100.00% of genomes passed length filtering
+Running prodigal
+Running checkM
+42.42% of genomes passed checkM filtering
+***************************************************
+    ..:: dRep dereplicate Step 2. Cluster ::..
+***************************************************
+    
+Running primary clustering
+Running pair-wise MASH clustering
+12 primary clusters made
+Running secondary clustering
+Running 18 ANImf comparisons- should take ~ 1.5 min
+Step 4. Return output
+***************************************************
+    ..:: dRep dereplicate Step 3. Choose ::..
+***************************************************
+    
+Loading work directory
+***************************************************
+    ..:: dRep dereplicate Step 4. Evaluate ::..
+***************************************************
+    
+will provide warnings about clusters
+0 warnings generated: saved to /media/user/T7/AnniZ/assembly/derep/dd/log/warnings.txt
+will produce Widb (winner information db)
+Winner database saved to /media/user/T7/AnniZ/assembly/derep/dddata_tables/Widb.csv
+***************************************************
+    ..:: dRep dereplicate Step 5. Analyze ::..
+***************************************************
+    
+making plots 1, 2, 3, 4, 5, 6
+Plotting primary dendrogram
+Plotting secondary dendrograms
+Plotting MDS plot
+Plotting scatterplots
+Plotting bin scorring plot
+Plotting winning genomes plot...
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+    ..:: dRep dereplicate finished ::..
+
+Dereplicated genomes................. /media/user/T7/AnniZ/assembly/derep/dd/dereplicated_genomes/
+Dereplicated genomes information..... /media/user/T7/AnniZ/assembly/derep/dd/data_tables/Widb.csv
+Figures.............................. /media/user/T7/AnniZ/assembly/derep/dd/figures/
+Warnings............................. /media/user/T7/AnniZ/assembly/derep/dd/log/warnings.txt
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+    
+subscripts/de.sh: line 3: activate: No such file or directory
+***************************************************
+    ..:: dRep dereplicate Step 1. Filter ::..
+***************************************************
+    
+Will filter the genome list
+Calculating genome info of genomes
+100.00% of genomes passed length filtering
+Running prodigal
+Running checkM
+24.24% of genomes passed checkM filtering
+***************************************************
+    ..:: dRep dereplicate Step 2. Cluster ::..
+***************************************************
+    
+Running primary clustering
+Running pair-wise MASH clustering
+8 primary clusters made
+Running secondary clustering
+Running 8 ANImf comparisons- should take ~ 0.7 min
+Step 4. Return output
+***************************************************
+    ..:: dRep dereplicate Step 3. Choose ::..
+***************************************************
+    
+Loading work directory
+***************************************************
+    ..:: dRep dereplicate Step 4. Evaluate ::..
+***************************************************
+    
+will provide warnings about clusters
+0 warnings generated: saved to /media/user/T7/AnniZ/assembly/derep/de/log/warnings.txt
+will produce Widb (winner information db)
+Winner database saved to /media/user/T7/AnniZ/assembly/derep/dedata_tables/Widb.csv
+***************************************************
+    ..:: dRep dereplicate Step 5. Analyze ::..
+***************************************************
+    
+making plots 1, 2, 3, 4, 5, 6
+Plotting primary dendrogram
+Plotting secondary dendrograms
+Plotting MDS plot
+Plotting scatterplots
+Plotting bin scorring plot
+Plotting winning genomes plot...
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+    ..:: dRep dereplicate finished ::..
+
+Dereplicated genomes................. /media/user/T7/AnniZ/assembly/derep/de/dereplicated_genomes/
+Dereplicated genomes information..... /media/user/T7/AnniZ/assembly/derep/de/data_tables/Widb.csv
+Figures.............................. /media/user/T7/AnniZ/assembly/derep/de/figures/
+Warnings............................. /media/user/T7/AnniZ/assembly/derep/de/log/warnings.txt
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+    
+subscripts/df.sh: line 3: activate: No such file or directory
+***************************************************
+    ..:: dRep dereplicate Step 1. Filter ::..
+***************************************************
+    
+Will filter the genome list
+Calculating genome info of genomes
+100.00% of genomes passed length filtering
+Running prodigal
+Running checkM
+44.44% of genomes passed checkM filtering
+***************************************************
+    ..:: dRep dereplicate Step 2. Cluster ::..
+***************************************************
+    
+Running primary clustering
+Running pair-wise MASH clustering
+6 primary clusters made
+Running secondary clustering
+Running 12 ANImf comparisons- should take ~ 1.0 min
+Step 4. Return output
+***************************************************
+    ..:: dRep dereplicate Step 3. Choose ::..
+***************************************************
+    
+Loading work directory
+***************************************************
+    ..:: dRep dereplicate Step 4. Evaluate ::..
+***************************************************
+    
+will provide warnings about clusters
+0 warnings generated: saved to /media/user/T7/AnniZ/assembly/derep/df/log/warnings.txt
+will produce Widb (winner information db)
+Winner database saved to /media/user/T7/AnniZ/assembly/derep/dfdata_tables/Widb.csv
+***************************************************
+    ..:: dRep dereplicate Step 5. Analyze ::..
+***************************************************
+    
+making plots 1, 2, 3, 4, 5, 6
+Plotting primary dendrogram
+Plotting secondary dendrograms
+Plotting MDS plot
+Plotting scatterplots
+Plotting bin scorring plot
+Plotting winning genomes plot...
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+    ..:: dRep dereplicate finished ::..
+
+Dereplicated genomes................. /media/user/T7/AnniZ/assembly/derep/df/dereplicated_genomes/
+Dereplicated genomes information..... /media/user/T7/AnniZ/assembly/derep/df/data_tables/Widb.csv
+Figures.............................. /media/user/T7/AnniZ/assembly/derep/df/figures/
+Warnings............................. /media/user/T7/AnniZ/assembly/derep/df/log/warnings.txt
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+    
+subscripts/dg.sh: line 3: activate: No such file or directory
+***************************************************
+    ..:: dRep dereplicate Step 1. Filter ::..
+***************************************************
+    
+Will filter the genome list
+Calculating genome info of genomes
+100.00% of genomes passed length filtering
+Running prodigal
+Running checkM
+25.81% of genomes passed checkM filtering
+***************************************************
+    ..:: dRep dereplicate Step 2. Cluster ::..
+***************************************************
+    
+Running primary clustering
+Running pair-wise MASH clustering
+6 primary clusters made
+Running secondary clustering
+Running 12 ANImf comparisons- should take ~ 1.0 min
+Step 4. Return output
+***************************************************
+    ..:: dRep dereplicate Step 3. Choose ::..
+***************************************************
+    
+Loading work directory
+***************************************************
+    ..:: dRep dereplicate Step 4. Evaluate ::..
+***************************************************
+    
+will provide warnings about clusters
+0 warnings generated: saved to /media/user/T7/AnniZ/assembly/derep/dg/log/warnings.txt
+will produce Widb (winner information db)
+Winner database saved to /media/user/T7/AnniZ/assembly/derep/dgdata_tables/Widb.csv
+***************************************************
+    ..:: dRep dereplicate Step 5. Analyze ::..
+***************************************************
+    
+making plots 1, 2, 3, 4, 5, 6
+Plotting primary dendrogram
+Plotting secondary dendrograms
+Plotting MDS plot
+Plotting scatterplots
+Plotting bin scorring plot
+Plotting winning genomes plot...
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+    ..:: dRep dereplicate finished ::..
+
+Dereplicated genomes................. /media/user/T7/AnniZ/assembly/derep/dg/dereplicated_genomes/
+Dereplicated genomes information..... /media/user/T7/AnniZ/assembly/derep/dg/data_tables/Widb.csv
+Figures.............................. /media/user/T7/AnniZ/assembly/derep/dg/figures/
+Warnings............................. /media/user/T7/AnniZ/assembly/derep/dg/log/warnings.txt
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+    
+subscripts/dh.sh: line 3: activate: No such file or directory
+***************************************************
+    ..:: dRep dereplicate Step 1. Filter ::..
+***************************************************
+    
+Will filter the genome list
+Calculating genome info of genomes
+100.00% of genomes passed length filtering
+Running prodigal
+Running checkM
+39.13% of genomes passed checkM filtering
+***************************************************
+    ..:: dRep dereplicate Step 2. Cluster ::..
+***************************************************
+    
+Running primary clustering
+Running pair-wise MASH clustering
+6 primary clusters made
+Running secondary clustering
+Running 15 ANImf comparisons- should take ~ 1.2 min
+Step 4. Return output
+***************************************************
+    ..:: dRep dereplicate Step 3. Choose ::..
+***************************************************
+    
+Loading work directory
+***************************************************
+    ..:: dRep dereplicate Step 4. Evaluate ::..
+***************************************************
+    
+will provide warnings about clusters
+0 warnings generated: saved to /media/user/T7/AnniZ/assembly/derep/dh/log/warnings.txt
+will produce Widb (winner information db)
+Winner database saved to /media/user/T7/AnniZ/assembly/derep/dhdata_tables/Widb.csv
+***************************************************
+    ..:: dRep dereplicate Step 5. Analyze ::..
+***************************************************
+    
+making plots 1, 2, 3, 4, 5, 6
+Plotting primary dendrogram
+Plotting secondary dendrograms
+Plotting MDS plot
+Plotting scatterplots
+Plotting bin scorring plot
+Plotting winning genomes plot...
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+    ..:: dRep dereplicate finished ::..
+
+Dereplicated genomes................. /media/user/T7/AnniZ/assembly/derep/dh/dereplicated_genomes/
+Dereplicated genomes information..... /media/user/T7/AnniZ/assembly/derep/dh/data_tables/Widb.csv
+Figures.............................. /media/user/T7/AnniZ/assembly/derep/dh/figures/
+Warnings............................. /media/user/T7/AnniZ/assembly/derep/dh/log/warnings.txt
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+    
+subscripts/di.sh: line 3: activate: No such file or directory
+***************************************************
+    ..:: dRep dereplicate Step 1. Filter ::..
+***************************************************
+    
+Will filter the genome list
+Calculating genome info of genomes
+100.00% of genomes passed length filtering
+Running prodigal
+Running checkM
+31.03% of genomes passed checkM filtering
+***************************************************
+    ..:: dRep dereplicate Step 2. Cluster ::..
+***************************************************
+    
+Running primary clustering
+Running pair-wise MASH clustering
+7 primary clusters made
+Running secondary clustering
+Running 13 ANImf comparisons- should take ~ 1.1 min
+Step 4. Return output
+***************************************************
+    ..:: dRep dereplicate Step 3. Choose ::..
+***************************************************
+    
+Loading work directory
+***************************************************
+    ..:: dRep dereplicate Step 4. Evaluate ::..
+***************************************************
+    
+will provide warnings about clusters
+0 warnings generated: saved to /media/user/T7/AnniZ/assembly/derep/di/log/warnings.txt
+will produce Widb (winner information db)
+Winner database saved to /media/user/T7/AnniZ/assembly/derep/didata_tables/Widb.csv
+***************************************************
+    ..:: dRep dereplicate Step 5. Analyze ::..
+***************************************************
+    
+making plots 1, 2, 3, 4, 5, 6
+Plotting primary dendrogram
+Plotting secondary dendrograms
+Plotting MDS plot
+Plotting scatterplots
+Plotting bin scorring plot
+Plotting winning genomes plot...
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+    ..:: dRep dereplicate finished ::..
+
+Dereplicated genomes................. /media/user/T7/AnniZ/assembly/derep/di/dereplicated_genomes/
+Dereplicated genomes information..... /media/user/T7/AnniZ/assembly/derep/di/data_tables/Widb.csv
+Figures.............................. /media/user/T7/AnniZ/assembly/derep/di/figures/
+Warnings............................. /media/user/T7/AnniZ/assembly/derep/di/log/warnings.txt
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+    
+subscripts/dj.sh: line 3: activate: No such file or directory
+***************************************************
+    ..:: dRep dereplicate Step 1. Filter ::..
+***************************************************
+    
+Will filter the genome list
+Calculating genome info of genomes
+100.00% of genomes passed length filtering
+Running prodigal
+Running checkM
+25.00% of genomes passed checkM filtering
+***************************************************
+    ..:: dRep dereplicate Step 2. Cluster ::..
+***************************************************
+    
+Running primary clustering
+Running pair-wise MASH clustering
+5 primary clusters made
+Running secondary clustering
+Running 11 ANImf comparisons- should take ~ 0.9 min
+Step 4. Return output
+***************************************************
+    ..:: dRep dereplicate Step 3. Choose ::..
+***************************************************
+    
+Loading work directory
+***************************************************
+    ..:: dRep dereplicate Step 4. Evaluate ::..
+***************************************************
+    
+will provide warnings about clusters
+0 warnings generated: saved to /media/user/T7/AnniZ/assembly/derep/dj/log/warnings.txt
+will produce Widb (winner information db)
+Winner database saved to /media/user/T7/AnniZ/assembly/derep/djdata_tables/Widb.csv
+***************************************************
+    ..:: dRep dereplicate Step 5. Analyze ::..
+***************************************************
+    
+making plots 1, 2, 3, 4, 5, 6
+Plotting primary dendrogram
+Plotting secondary dendrograms
+Plotting MDS plot
+Plotting scatterplots
+Plotting bin scorring plot
+Plotting winning genomes plot...
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+    ..:: dRep dereplicate finished ::..
+
+Dereplicated genomes................. /media/user/T7/AnniZ/assembly/derep/dj/dereplicated_genomes/
+Dereplicated genomes information..... /media/user/T7/AnniZ/assembly/derep/dj/data_tables/Widb.csv
+Figures.............................. /media/user/T7/AnniZ/assembly/derep/dj/figures/
+Warnings............................. /media/user/T7/AnniZ/assembly/derep/dj/log/warnings.txt
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+    
+subscripts/dk.sh: line 3: activate: No such file or directory
+***************************************************
+    ..:: dRep dereplicate Step 1. Filter ::..
+***************************************************
+    
+Will filter the genome list
+Calculating genome info of genomes
+100.00% of genomes passed length filtering
+Running prodigal
+Running checkM
+35.42% of genomes passed checkM filtering
+***************************************************
+    ..:: dRep dereplicate Step 2. Cluster ::..
+***************************************************
+    
+Running primary clustering
+Running pair-wise MASH clustering
+11 primary clusters made
+Running secondary clustering
+Running 29 ANImf comparisons- should take ~ 2.4 min
+Step 4. Return output
+***************************************************
+    ..:: dRep dereplicate Step 3. Choose ::..
+***************************************************
+    
+Loading work directory
+***************************************************
+    ..:: dRep dereplicate Step 4. Evaluate ::..
+***************************************************
+    
+will provide warnings about clusters
+1 warnings generated: saved to /media/user/T7/AnniZ/assembly/derep/dk/log/warnings.txt
+will produce Widb (winner information db)
+Winner database saved to /media/user/T7/AnniZ/assembly/derep/dkdata_tables/Widb.csv
+***************************************************
+    ..:: dRep dereplicate Step 5. Analyze ::..
+***************************************************
+    
+making plots 1, 2, 3, 4, 5, 6
+Plotting primary dendrogram
+Plotting secondary dendrograms
+Plotting MDS plot
+Plotting scatterplots
+Plotting bin scorring plot
+Plotting winning genomes plot...
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+    ..:: dRep dereplicate finished ::..
+
+Dereplicated genomes................. /media/user/T7/AnniZ/assembly/derep/dk/dereplicated_genomes/
+Dereplicated genomes information..... /media/user/T7/AnniZ/assembly/derep/dk/data_tables/Widb.csv
+Figures.............................. /media/user/T7/AnniZ/assembly/derep/dk/figures/
+Warnings............................. /media/user/T7/AnniZ/assembly/derep/dk/log/warnings.txt
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+    
+subscripts/dl.sh: line 3: activate: No such file or directory
+***************************************************
+    ..:: dRep dereplicate Step 1. Filter ::..
+***************************************************
+    
+Will filter the genome list
+Calculating genome info of genomes
+100.00% of genomes passed length filtering
+Running prodigal
+Running checkM
+23.53% of genomes passed checkM filtering
+***************************************************
+    ..:: dRep dereplicate Step 2. Cluster ::..
+***************************************************
+    
+Running primary clustering
+Running pair-wise MASH clustering
+8 primary clusters made
+Running secondary clustering
+Running 8 ANImf comparisons- should take ~ 0.7 min
+Step 4. Return output
+***************************************************
+    ..:: dRep dereplicate Step 3. Choose ::..
+***************************************************
+    
+Loading work directory
+***************************************************
+    ..:: dRep dereplicate Step 4. Evaluate ::..
+***************************************************
+    
+will provide warnings about clusters
+0 warnings generated: saved to /media/user/T7/AnniZ/assembly/derep/dl/log/warnings.txt
+will produce Widb (winner information db)
+Winner database saved to /media/user/T7/AnniZ/assembly/derep/dldata_tables/Widb.csv
+***************************************************
+    ..:: dRep dereplicate Step 5. Analyze ::..
+***************************************************
+    
+making plots 1, 2, 3, 4, 5, 6
+Plotting primary dendrogram
+Plotting secondary dendrograms
+Plotting MDS plot
+Plotting scatterplots
+Plotting bin scorring plot
+Plotting winning genomes plot...
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+    ..:: dRep dereplicate finished ::..
+
+Dereplicated genomes................. /media/user/T7/AnniZ/assembly/derep/dl/dereplicated_genomes/
+Dereplicated genomes information..... /media/user/T7/AnniZ/assembly/derep/dl/data_tables/Widb.csv
+Figures.............................. /media/user/T7/AnniZ/assembly/derep/dl/figures/
+Warnings............................. /media/user/T7/AnniZ/assembly/derep/dl/log/warnings.txt
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+    

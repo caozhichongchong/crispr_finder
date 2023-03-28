@@ -1,0 +1,105 @@
+receiving file list ... done
+ab0140.fasta.tar.gz
+ac0038.fasta.tar.gz
+ad0002.fasta.tar.gz
+ae0003.fasta.tar.gz
+ae0046.fasta.tar.gz
+ae0047.fasta.tar.gz
+ae0064.fasta.tar.gz
+ae0065.fasta.tar.gz
+ae0070.fasta.tar.gz
+ae0076.fasta.tar.gz
+ag0005.fasta.tar.gz
+ah0028.fasta.tar.gz
+ai0002.fasta.tar.gz
+aj0061.fasta.tar.gz
+ak0001.fasta.tar.gz
+al0025.fasta.tar.gz
+an0001.fasta.tar.gz
+an0009.fasta.tar.gz
+an0075.fasta.tar.gz
+an0083.fasta.tar.gz
+ao0077.fasta.tar.gz
+ao0082.fasta.tar.gz
+ap0037.fasta.tar.gz
+aq0004.fasta.tar.gz
+ar0002.fasta.tar.gz
+as0002.fasta.tar.gz
+at0004.fasta.tar.gz
+au0066.fasta.tar.gz
+av0107.fasta.tar.gz
+aw0001.fasta.tar.gz
+ax0090.fasta.tar.gz
+ay0058.fasta.tar.gz
+az0001.fasta.tar.gz
+ba0001.fasta.tar.gz
+bd0033.fasta.tar.gz
+be0085.fasta.tar.gz
+bf0108.fasta.tar.gz
+bh0112.fasta.tar.gz
+bi0001.fasta.tar.gz
+bk0025.fasta.tar.gz
+bl0009.fasta.tar.gz
+bm0002.fasta.tar.gz
+bn0038.fasta.tar.gz
+bo0122.fasta.tar.gz
+bp0002.fasta.tar.gz
+br0002.fasta.tar.gz
+bs0008.fasta.tar.gz
+bt0001.fasta.tar.gz
+bu0001.fasta.tar.gz
+bv0001.fasta.tar.gz
+bw0001.fasta.tar.gz
+bx0057.fasta.tar.gz
+by0059.fasta.tar.gz
+bz0033.fasta.tar.gz
+ca0001.fasta.tar.gz
+cb0001.fasta.tar.gz
+cc0023.fasta.tar.gz
+cd0001.fasta.tar.gz
+ce0007.fasta.tar.gz
+cf0001.fasta.tar.gz
+cg0001.fasta.tar.gz
+ch0008.fasta.tar.gz
+ci0001.fasta.tar.gz
+cj0001.fasta.tar.gz
+ck0001.fasta.tar.gz
+cm0022.fasta.tar.gz
+cn0002.fasta.tar.gz
+cp0009.fasta.tar.gz
+cq0035.fasta.tar.gz
+cr0043.fasta.tar.gz
+cs0011.fasta.tar.gz
+ct0005.fasta.tar.gz
+cu0009.fasta.tar.gz
+cv0018.fasta.tar.gz
+cw0001.fasta.tar.gz
+cy0019.fasta.tar.gz
+cz0039.fasta.tar.gz
+da0001.fasta.tar.gz
+db0015.fasta.tar.gz
+dc0028.fasta.tar.gz
+dd0001.fasta.tar.gz
+de0031.fasta.tar.gz
+df0030.fasta.tar.gz
+dg0001.fasta.tar.gz
+dh0010.fasta.tar.gz
+di0009.fasta.tar.gz
+dj0001.fasta.tar.gz
+dk0003.fasta.tar.gz
+dl0001.fasta.tar.gz
+
+Number of files: 89
+Number of files transferred: 89
+Total file size: 3296006883 bytes
+Total transferred file size: 3296006883 bytes
+Literal data: 0 bytes
+Matched data: 0 bytes
+File list size: 2592
+File list generation time: 0.012 seconds
+File list transfer time: 0.000 seconds
+Total bytes sent: 554
+Total bytes received: 3146
+
+sent 554 bytes  received 3146 bytes  672.73 bytes/sec
+total size is 3296006883  speedup is 890812.67
