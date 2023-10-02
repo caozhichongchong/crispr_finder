@@ -1,0 +1,2 @@
+	pvalue	qvalue	Weighted time diff	firstpresence	neworder	SP_y
+0	1.8786196215516927e-05	1.0	71.07692307692308	219	0	SP2
